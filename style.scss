@@ -1,13 +1,13 @@
 /* BASE - Base styles, Variables, Mixins, etc. */
 
-@import 'base/_variables.scss';
-@import 'base/_mixins.scss';
-@import 'base/_base.scss';
+@import 'scss/base/_variables.scss';
+@import 'scss/base/_mixins.scss';
+@import 'scss/base/_base.scss';
 
 /* MODULES - Individual site components */
 
-@import 'modules/_typography.scss';
-@import 'modules/_buttons.scss';
+@import 'scss/modules/_typography.scss';
+@import 'scss/modules/_buttons.scss';
 
 /* LAYOUTS - Page layout styles */
 
@@ -16,41 +16,41 @@
  HEADER SECTION
 ====================*/
 
-@import 'layouts/_header.scss';
+@import 'scss/layouts/_header.scss';
 
 /*==================
  NAVBAR SECTION
 ====================*/
 
-@import 'layouts/_nav.scss';
+@import 'scss/layouts/_nav.scss';
 
 /*==================
  SCROLL TO TOP
 ====================*/
 
-@import 'modules/_scrolltop.scss';
+@import 'scss/modules/_scrolltop.scss';
 
 /* ALL SECTION */
 
-@import 'modules/home.scss';
+@import 'scss/modules/home.scss';
 
 /*==================
  FOOTER SECTION
 ====================*/
 
-@import 'layouts/_footer.scss';
+@import 'scss/layouts/_footer.scss';
 
 /*==================
  THEME COLOR
 ====================*/
 
-@import 'modules/_theme-color.scss';
+@import 'scss/modules/_theme-color.scss';
 
 /*==================
  RESPONSIVE DESIGN
 ====================*/
 
-@import 'modules/_responsive.scss';
+@import 'scss/modules/_responsive.scss';
 // custom modules
 .vanish {
     display: none !important;
