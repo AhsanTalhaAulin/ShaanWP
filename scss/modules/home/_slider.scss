@@ -1,0 +1,95 @@
+#sm-slider {
+    display: inline;
+    float: left;
+    width: 100%;
+    position: relative;
+    .sm-slider-area {
+        display: inline;
+        float: left;
+        width: 100%;
+        .sm-top-slider {
+            display: inline;
+            float: left;
+            width: 100%;
+            .sm-top-slider-single {
+                display: inline;
+                float: left;
+                position: relative;
+                width: 100%;
+                &:after {
+                    background-color: rgba(0, 0, 0, 0.6);
+                    bottom: 0;
+                    content: "";
+                    left: 0;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: 9;
+                }
+                img {
+                    width: 100%;
+                }
+                .sm-top-slider-content {
+                    position: absolute;
+                    left: 15%;
+                    top: 33%;
+                    right: 15%;
+                    text-align: center;
+                    z-index: 99;
+                    .sm-slider-small-title {
+                        font-family: $small-head-font;
+                        font-size: 100px;
+                        font-weight: 400;
+                        line-height: 40px;
+                    }
+                    .sm-slider-title {
+                        color: #fff;
+                        font-family: $small-head-font;
+                        font-size: 70px;
+                        line-height: 90px;
+                    }
+                    p {
+                        color: #fff;
+                        font-size: 20px;
+                        margin-bottom: 30px;
+                        margin-top: 10px;
+                        padding: 0 30px;
+                    }
+                }
+            }
+            .slick-prev::before {
+                content: "\f177";
+                font-family: fontAwesome;
+            }
+            .slick-next::before {
+                content: "\f178";
+                font-family: fontAwesome;
+            }
+            .slick-prev,
+            .slick-next {
+                background-color: transparent;
+                border: 2px solid #888;
+                height: 60px;
+                top: 50%;
+                width: 70px;
+                @include transition(all 0.5s);
+                &::before {
+                    color: #888;
+                }
+                &:hover,
+                &:focus {
+                    color: #fff;
+                    &::before {
+                        color: #fff;
+                    }
+                }
+            }
+            .slick-prev {
+                left: 20px;
+            }
+            .slick-next {
+                right: 20px;
+            }
+        }
+    }
+}

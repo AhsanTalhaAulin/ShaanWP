@@ -1,0 +1,64 @@
+#sm-counter {
+    background-attachment: fixed;
+    background-image: url("assets/img/counter-bg.jpg");
+    background-size: cover;
+    display: inline;
+    float: left;
+    width: 100%;
+    .sm-counter-overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+        display: inline;
+        padding: 100px 0;
+        float: left;
+        width: 100%;
+        .sm-counter-area {
+            display: inline;
+            float: left;
+            width: 100%;
+            .sm-counter-nav {
+                display: inline-block;
+                width: 100%;
+                li {
+                    display: inline-block;
+                    border-right: 1px solid #ccc;
+                    &:last-child {
+                        border-right: none;
+                    }
+                    .sm-single-counter {
+                        color: #fff;
+                        display: inline;
+                        float: left;
+                        text-align: center;
+                        width: 100%;
+                        span {
+                            font-family: $small-head-font;
+                            font-size: 40px;
+                        }
+                        h3 {
+                            font-size: 50px;
+                            font-weight: bold;
+                            line-height: 40px;
+                            margin-bottom: 15px;
+                            margin-top: 0;
+                            span {
+                                font-family: $heading-font;
+                                font-size: 50px;
+                                font-weight: bold;
+                                line-height: 40px;
+                            }
+                            sup {
+                                font-weight: normal;
+                                display: inline-block;
+                                font-size: 35px;
+                            }
+                        }
+                        p {
+                            font-size: 18px;
+                            letter-spacing: 1.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

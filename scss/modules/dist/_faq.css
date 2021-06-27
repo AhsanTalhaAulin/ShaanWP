@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#faq-btn {
+  cursor: pointer;
+}
+
+.sm-faq {
+  /* Hidden by default */
+  display: none;
+  /* Stay in place */
+  position: fixed;
+  /* Sit on top */
+  z-index: 1;
+  /* Location of the box */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  /* Full width */
+  width: 100%;
+  /* Full height */
+  height: 100%;
+  /* Enable scroll if needed */
+  overflow: auto;
+  /* Fallback color */
+  background-color: black;
+  /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Modal Content */
+}
+.sm-faq .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 80%;
+  /* The Close Button */
+}
+.sm-faq .modal-content .close {
+  color: #000;
+  float: right;
+  font-size: 50px;
+}
+.sm-faq .modal-content .close :hover,
+.sm-faq .modal-content .close :focus {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.sm-faq .modal-content .collapsible {
+  background-color: #fefefe;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.sm-faq .modal-content .collapsible:hover {
+  background-color: #dddddd;
+}
+.sm-faq .modal-content .collapsible:after {
+  content: "+";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.sm-faq .modal-content .active {
+  background-color: #ddd;
+}
+.sm-faq .modal-content .active:after {
+  content: "−";
+}
+.sm-faq .modal-content .content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}

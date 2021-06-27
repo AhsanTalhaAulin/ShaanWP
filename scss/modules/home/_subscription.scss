@@ -1,0 +1,49 @@
+#sm-subscription {
+    display: inline;
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+    .sm-subscription-area {
+        display: inline;
+        float: left;
+        padding: 0 180px;
+        width: 100%;
+        .sm-subscription-form {
+            input[type="text"] {
+                border: medium none;
+                color: #000;
+                float: left;
+                font-size: 16px;
+                height: 54px;
+                margin-right: 20px;
+                letter-spacing: 1px;
+                padding: 10px;
+                width: 75%;
+                &::-webkit-input-placeholder {
+                    color: #555;
+                    opacity: 1;
+                }
+                &:-moz-placeholder {
+                    // Firefox 18-
+                    color: #555;
+                    opacity: 1;
+                }
+                &::-moz-placeholder {
+                    // Firefox 19+
+                    color: #555;
+                    opacity: 1;
+                }
+                &:-ms-input-placeholder {
+                    color: #555;
+                    opacity: 1;
+                }
+            }
+            button[type="submit"] {
+                border: none;
+                &:hover {
+                    background-color: #FFF;
+                }
+            }
+        }
+    }
+}

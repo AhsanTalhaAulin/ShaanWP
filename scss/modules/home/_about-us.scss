@@ -1,0 +1,81 @@
+#sm-about-us {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    .sm-about-us-area {
+        display: inline;
+        float: left;
+        width: 100%;
+        .sm-about-us-left {
+            display: inline;
+            float: left;
+            margin-top: 20px;
+            padding-top: 30px;
+            width: 100%;
+            p {
+                line-height: 24px;
+            }
+            ul {
+                margin-bottom: 20px;
+                padding-left: 20px;
+                li {
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                    &:before {
+                        content: "\f24d";
+                        font-family: fontAwesome;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .sm-about-us-right {
+            display: inline;
+            float: left;
+            margin-top: 20px;
+            padding-top: 30px;
+            width: 100%;
+        }
+    }
+}
+
+.sm-title {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    .sm-subtitle {
+        font-size: 50px;
+        font-family: $small-head-font;
+        line-height: 30px;
+    }
+    h2 {
+        color: #000;
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    i {
+        font-size: 18px;
+    }
+    .sm-title-bar {
+        position: relative;
+        &::before {
+            content: "";
+            height: 2px;
+            left: 8px;
+            position: absolute;
+            top: 10px;
+            width: 100px;
+        }
+        &::after {
+            content: "";
+            height: 2px;
+            right: 15px;
+            position: absolute;
+            top: 10px;
+            width: 100px;
+        }
+    }
+}

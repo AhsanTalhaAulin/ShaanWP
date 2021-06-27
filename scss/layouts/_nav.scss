@@ -1,0 +1,57 @@
+.sm-main-navbar {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    @include transition(all 0.5s);
+    .sm-main-nav {
+        font-family: $heading-font;
+        padding: 25px 0;
+        li {
+            a {
+                color: #fff;
+                @include transition(all 0.5s);
+            }
+        }
+        .dropdown-menu {
+            background-color: #333;
+            border-radius: 0;
+            li {
+                a {
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+    .navbar-header {
+        .navbar-brand {
+            padding: 0;
+            margin-top: 0px;
+            width: 120px;
+            height: auto;
+            @include transition(all 0.5s);
+        }
+        // .navbar-brand-small {
+        //     height: 20px;
+        //     margin-top: 0;
+        //     width: 105px;
+        // }
+        a {
+            img {
+                width: 120px;
+                height: auto;
+            }
+        }
+    }
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: transparent;
+}
+
+.navbar-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0px 0;
+}

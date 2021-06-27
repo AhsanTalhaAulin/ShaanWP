@@ -1,0 +1,331 @@
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/
+
+.scrollToTop {
+    background-color: #ffff00;
+    border: 2px solid #ffff00;
+}
+
+.sm-readmore-btn {
+    color: #ffff00;
+}
+
+.sm-readmore-btn::after {
+    border: 2px solid #ffff00;
+}
+
+.sm-readmore-btn:hover,
+.sm-readmore-btn:focus {
+    background-color: #ffff00;
+}
+
+.sm-readmore-btn:hover::after,
+.sm-readmore-btn:focus::after {
+    border-color: #ffff00;
+}
+
+.sm-browsmore-btn {
+    color: #ffff00;
+}
+
+.sm-browsmore-btn:hover,
+.sm-browsmore-btn:focus {
+    background-color: #ffff00;
+    border-color: #ffff00;
+}
+
+.sm-send-btn:hover,
+.sm-send-btn:focus {
+    background-color: #ffff00;
+    border-color: #ffff00;
+}
+
+.sm-main-navbar .sm-main-nav li a:hover,
+.sm-main-navbar .sm-main-nav li a:focus {
+    color: #ffff00;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #ffff00;
+}
+
+#sm-slider .sm-slider-area .sm-top-slider .sm-top-slider-single .sm-top-slider-content .sm-slider-small-title {
+    color: #ffff00;
+}
+
+#sm-slider .sm-slider-area .sm-top-slider .slick-prev:hover,
+#sm-slider .sm-slider-area .sm-top-slider .slick-prev:focus,
+#sm-slider .sm-slider-area .sm-top-slider .slick-next:hover,
+#sm-slider .sm-slider-area .sm-top-slider .slick-next:focus {
+    border-color: #ffff00;
+    background-color: #ffff00;
+}
+
+#sm-about-us .sm-about-us-area .sm-about-us-left ul li:before {
+    color: #ffff00;
+}
+
+.sm-title .sm-subtitle {
+    color: #ffff00;
+}
+
+.sm-title i {
+    color: #ffff00;
+}
+
+.sm-title .sm-title-bar::before {
+    background-color: #ffff00;
+}
+
+.sm-title .sm-title-bar::after {
+    background-color: #ffff00;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu {
+    border-bottom: 1px solid #ffff00;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu li a {
+    background-color: #ffff00;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu li a:hover,
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu li a:focus {
+    border-color: #ffff00 #ffff00 transparent;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu .active a,
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu .active a:hover,
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu .active a:focus {
+    color: #ffff00;
+    border-color: #ffff00 #ffff00 transparent;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-body .media-heading a:hover,
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-body .media-heading a:focus {
+    color: #ffff00;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-body .sm-menu-price {
+    color: #ffff00;
+}
+
+#sm-reservation .sm-reservation-area .sm-reservation-content h3 {
+    border-bottom: 2px solid #ffff00;
+}
+
+#sm-reservation .sm-reservation-area .sm-reservation-content .sm-reservation-form input[type="text"]:focus,
+#sm-reservation .sm-reservation-area .sm-reservation-content .sm-reservation-form input[type="email"]:focus {
+    border-color: #ffff00;
+}
+
+#sm-reservation .sm-reservation-area .sm-reservation-content .sm-reservation-form select:focus {
+    border-color: #ffff00;
+}
+
+#sm-reservation .sm-reservation-area .sm-reservation-content .sm-reservation-form textarea:focus {
+    border-color: #ffff00;
+}
+
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+    background-color: #ffff00;
+}
+
+.datepicker table tr td.day:hover {
+    background-color: #ffff00;
+}
+
+#sm-gallery .sm-gallery-area .sm-gallery-content .sm-gallery-top ul li:hover,
+#sm-gallery .sm-gallery-area .sm-gallery-content .sm-gallery-top ul li:focus {
+    background-color: #ffff00;
+}
+
+#sm-gallery .sm-gallery-area .sm-gallery-content .sm-gallery-top ul li:hover::after,
+#sm-gallery .sm-gallery-area .sm-gallery-content .sm-gallery-top ul li:focus::after {
+    border-color: #ffff00;
+}
+
+#sm-gallery .sm-gallery-area .sm-gallery-content .sm-gallery-top ul .active {
+    background-color: #ffff00;
+}
+
+#sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-bio p {
+    font-family: "Open Sans", sans-serif;
+}
+
+#sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider .slick-dots li {
+    border: 2px solid #ffff00;
+}
+
+#sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider .slick-dots .slick-active {
+    background-color: #ffff00;
+}
+
+#sm-subscription {
+    background-color: #ffff00;
+}
+
+#sm-subscription .sm-subscription-area .sm-subscription-form button[type="submit"]:hover {
+    color: #ffff00;
+}
+
+#sm-chef .sm-chef-area .sm-chef-content .sm-chef-nav .slick-list li .sm-single-chef .sm-single-chef-info h4 {
+    color: #ffff00;
+}
+
+#sm-chef .sm-chef-area .sm-chef-content .sm-chef-nav .slick-list li .sm-single-chef .sm-single-chef-social a {
+    border: 1px solid #ffff00;
+    color: #ffff00;
+}
+
+#sm-chef .sm-chef-area .sm-chef-content .sm-chef-nav .slick-list li .sm-single-chef .sm-single-chef-social a:hover,
+#sm-chef .sm-chef-area .sm-chef-content .sm-chef-nav .slick-list li .sm-single-chef .sm-single-chef-social a:focus {
+    background-color: #ffff00;
+}
+
+#sm-chef .sm-chef-area .sm-chef-content .sm-chef-nav .slick-dots li {
+    border: 2px solid #ffff00;
+}
+
+#sm-chef .sm-chef-area .sm-chef-content .sm-chef-nav .slick-dots .slick-active {
+    background-color: #ffff00;
+}
+
+.sm-news-single h3:hover {
+    color: #ffff00;
+}
+
+.sm-news-single h3 a:hover,
+.sm-news-single h3 a:focus {
+    color: #ffff00;
+}
+
+#sm-contact .sm-contact-area .sm-contact-content .sm-contact-left .sm-contact-form input[type="text"]:focus,
+#sm-contact .sm-contact-area .sm-contact-content .sm-contact-left .sm-contact-form input[type="email"]:focus {
+    border-color: #ffff00;
+}
+
+#sm-contact .sm-contact-area .sm-contact-content .sm-contact-left .sm-contact-form textarea:focus {
+    border-color: #ffff00;
+}
+
+#sm-contact .sm-contact-area .sm-contact-content .sm-contact-right .sm-contact-widget h3 {
+    color: #ffff00;
+}
+
+#sm-footer .sm-footer-area .sm-footer-social a:hover,
+#sm-footer .sm-footer-area .sm-footer-social a:hover {
+    background-color: #ffff00;
+}
+
+#sm-footer .sm-footer-area .sm-footer-copyright p a:hover,
+#sm-footer .sm-footer-area .sm-footer-copyright p a:focus {
+    color: #ffff00;
+}
+
+#sm-blog-banner .sm-blog-banner-area .breadcrumb li {
+    color: #ffff00;
+}
+
+#sm-blog-banner .sm-blog-banner-area .breadcrumb li a {
+    color: #fff;
+}
+
+#sm-blog .sm-blog-area .sm-blog-pagination-area .sm-blog-pagination li a:hover,
+#sm-blog .sm-blog-area .sm-blog-pagination-area .sm-blog-pagination li a:focus {
+    color: #ffff00;
+}
+
+#sm-blog .sm-blog-area .sm-blog-sidebar .sm-blog-sidebar-single h3:after {
+    background-color: #ffff00;
+}
+
+#sm-blog .sm-blog-area .sm-blog-sidebar .sm-blog-sidebar-single .sm-catg-nav>li a:hover {
+    color: #ffff00;
+}
+
+#sm-blog .sm-blog-area .sm-blog-sidebar .sm-blog-sidebar-single .tag-cloud a:hover,
+#sm-blog .sm-blog-area .sm-blog-sidebar .sm-blog-sidebar-single .tag-cloud a:focus {
+    color: #ffff00;
+}
+
+.sm-blog-details .sm-news-single>h2 {
+    font-size: 28px;
+    padding: 15px 20px;
+}
+
+.sm-blog-details .sm-news-single>h2 a {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.sm-blog-details .sm-news-single>h2 a:hover {
+    color: #ffff00;
+}
+
+.sm-blog-details .sm-news-single .sm-news-single-content blockquote {
+    border-color: #ffff00;
+}
+
+.sm-blog-details .sm-news-single .sm-news-single-bottom .sm-news-single-tag .sm-news-single-tagnav li a:hover,
+.sm-blog-details .sm-news-single .sm-news-single-bottom .sm-news-single-tag .sm-news-single-tagnav li a:focus {
+    color: #ffff00;
+}
+
+.sm-blog-details .sm-news-single .sm-news-single-bottom .sm-news-single-social .sm-news-single-socialnav li a:hover,
+.sm-blog-details .sm-news-single .sm-news-single-bottom .sm-news-single-social .sm-news-single-socialnav li a:focus {
+    color: #ffff00;
+}
+
+.sm-blog-single-navigation a:hover,
+.sm-blog-single-navigation a:focus {
+    color: #ffff00;
+}
+
+.sm-comments-area .comments .commentlist li .comments-date {
+    color: #ffff00;
+}
+
+.sm-comments-area .comments .commentlist li .reply-btn {
+    background-color: #ffff00;
+}
+
+.sm-comments-area .comments .comments-pagination li a:hover,
+.sm-comments-area .comments .comments-pagination li a:focus {
+    color: #ffff00;
+}
+
+#respond input[type="text"]:focus,
+#respond input[type="email"]:focus,
+#respond input[type="url"]:focus {
+    border-color: #ffff00;
+}
+
+#respond textarea:focus {
+    border-color: #ffff00;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffff00;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #ffff00;
+}
+
+
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/

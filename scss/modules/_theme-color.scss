@@ -1,0 +1,519 @@
+// Theme color
+.scrollToTop {
+    background-color: $theme-color;
+    border: 2px solid $theme-color;
+}
+
+.sm-readmore-btn {
+    color: #fff;
+    &::after {
+        border: 2px solid $theme-color;
+    }
+    &:hover,
+    &:focus {
+        background-color: $theme-color;
+        &::after {
+            border-color: $theme-color;
+        }
+    }
+}
+
+.sm-browsmore-btn {
+    color: $theme-color;
+    &:hover,
+    &:focus {
+        background-color: $theme-color;
+        border-color: $theme-color;
+    }
+}
+
+.sm-send-btn {
+    &:hover,
+    &:focus {
+        background-color: $theme-color;
+        border-color: $theme-color;
+    }
+}
+
+.sm-main-navbar {
+    .sm-main-nav {
+        li {
+            a {
+                &:hover,
+                &:focus {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: $theme-color;
+}
+
+#sm-slider {
+    .sm-slider-area {
+        .sm-top-slider {
+            .sm-top-slider-single {
+                .sm-top-slider-content {
+                    .sm-slider-small-title {
+                        color: $theme-color;
+                    }
+                }
+            }
+            .slick-prev,
+            .slick-next {
+                &:hover,
+                &:focus {
+                    border-color: $theme-color;
+                    background-color: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+#sm-about-us {
+    .sm-about-us-area {
+        .sm-about-us-left {
+            ul {
+                li {
+                    &:before {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sm-title {
+    .sm-subtitle {
+        color: $theme-color;
+    }
+    i {
+        color: $theme-color;
+    }
+    .sm-title-bar {
+        &::before {
+            background-color: $theme-color;
+        }
+        &::after {
+            background-color: $theme-color;
+        }
+    }
+}
+
+#sm-restaurant-menu {
+    .sm-restaurant-menu-area {
+        .sm-restaurant-menu-content {
+            .sm-restaurant-menu {
+                border-bottom: 1px solid $theme-color;
+                li {
+                    a {
+                        background-color: $theme-color;
+                        &:hover,
+                        &:focus {
+                            border-color: $theme-color $theme-color transparent;
+                        }
+                    }
+                }
+                .active {
+                    a,
+                    a:hover,
+                    a:focus {
+                        color: $theme-color;
+                        border-color: $theme-color $theme-color transparent;
+                    }
+                }
+            }
+            .sm-tab-content-area {
+                .sm-menu-item-nav {
+                    li {
+                        .media {
+                            .media-body {
+                                .media-heading {
+                                    a {
+                                        &:hover,
+                                        &:focus {
+                                            color: $theme-color;
+                                        }
+                                    }
+                                }
+                                .sm-menu-price {
+                                    color: $theme-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sm-reservation {
+    .sm-reservation-area {
+        .sm-reservation-content {
+            h3 {
+                border-bottom: 2px solid $theme-color;
+            }
+            .sm-reservation-form {
+                input[type="text"],
+                input[type="email"] {
+                    &:focus {
+                        border-color: $theme-color;
+                    }
+                }
+                select {
+                    &:focus {
+                        border-color: $theme-color;
+                    }
+                }
+                textarea {
+                    &:focus {
+                        border-color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.datepicker .datepicker-switch,
+.datepicker .prev,
+.datepicker .next,
+.datepicker tfoot tr th {
+    &:hover {
+        background-color: $theme-color;
+    }
+}
+
+.datepicker table tr td.day:hover {
+    background-color: $theme-color;
+}
+
+#sm-gallery {
+    .sm-gallery-area {
+        .sm-gallery-content {
+            .sm-gallery-top {
+                ul {
+                    li {
+                        &:hover,
+                        &:focus {
+                            background-color: $theme-color;
+                            &::after {
+                                border-color: $theme-color;
+                            }
+                        }
+                    }
+                    .active {
+                        background-color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sm-client-testimonial {
+    .sm-client-testimonial-area {
+        .sm-testimonial-content {
+            .sm-testimonial-slider {
+                li {
+                    .sm-testimonial-single {
+                        .sm-testimonial-bio {
+                            p {
+                                font-family: $heading-font;
+                            }
+                        }
+                    }
+                }
+                .slick-dots {
+                    li {
+                        border: 2px solid $theme-color;
+                    }
+                    .slick-active {
+                        background-color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sm-subscription {
+    background-color: $theme-color;
+    .sm-subscription-area {
+        .sm-subscription-form {
+            button[type="submit"] {
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+#sm-chef {
+    .sm-chef-area {
+        .sm-chef-content {
+            .sm-chef-nav {
+                .slick-list {
+                    li {
+                        .sm-single-chef {
+                            .sm-single-chef-info {
+                                h4 {
+                                    color: $theme-color;
+                                }
+                            }
+                            .sm-single-chef-social {
+                                a {
+                                    border: 1px solid $theme-color;
+                                    color: $theme-color;
+                                    &:hover,
+                                    &:focus {
+                                        background-color: $theme-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .slick-dots {
+                    li {
+                        border: 2px solid $theme-color;
+                    }
+                    .slick-active {
+                        background-color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sm-news-single {
+    h3 {
+        &:hover {
+            color: $theme-color;
+        }
+        a {
+            &:hover,
+            &:focus {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+#sm-contact {
+    .sm-contact-area {
+        .sm-contact-content {
+            .sm-contact-left {
+                .sm-contact-form {
+                    input[type="text"],
+                    input[type="email"] {
+                        &:focus {
+                            border-color: $theme-color;
+                        }
+                    }
+                    textarea {
+                        &:focus {
+                            border-color: $theme-color;
+                        }
+                    }
+                }
+            }
+            .sm-contact-right {
+                .sm-contact-widget {
+                    h3 {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sm-footer {
+    .sm-footer-area {
+        .sm-footer-social {
+            a {
+                &:hover,
+                &:hover {
+                    background-color: $theme-color;
+                }
+            }
+        }
+        .sm-footer-copyright {
+            p {
+                a {
+                    &:hover,
+                    &:focus {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sm-blog-banner {
+    .sm-blog-banner-area {
+        .breadcrumb {
+            li {
+                color: $theme-color;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+#sm-blog {
+    .sm-blog-area {
+        .sm-blog-pagination-area {
+            .sm-blog-pagination {
+                li {
+                    a {
+                        &:hover,
+                        &:focus {
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+        .sm-blog-sidebar {
+            .sm-blog-sidebar-single {
+                h3 {
+                    &:after {
+                        background-color: $theme-color;
+                    }
+                }
+                .sm-catg-nav {
+                    &>li {
+                        a {
+                            &:hover {
+                                color: $theme-color;
+                            }
+                        }
+                    }
+                }
+                .tag-cloud {
+                    a {
+                        &:hover,
+                        &:focus {
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sm-blog-details {
+    .sm-news-single {
+        &>h2 {
+            font-size: 28px;
+            padding: 15px 20px;
+            a {
+                @include transition(all 0.5s);
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+        .sm-news-single-content {
+            blockquote {
+                border-color: $theme-color;
+            }
+        }
+        .sm-news-single-bottom {
+            .sm-news-single-tag {
+                .sm-news-single-tagnav {
+                    li {
+                        a {
+                            &:hover,
+                            &:focus {
+                                color: $theme-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .sm-news-single-social {
+                .sm-news-single-socialnav {
+                    li {
+                        a {
+                            &:hover,
+                            &:focus {
+                                color: $theme-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sm-blog-single-navigation {
+    a {
+        &:hover,
+        &:focus {
+            color: $theme-color;
+        }
+    }
+}
+
+.sm-comments-area {
+    .comments {
+        .commentlist {
+            li {
+                .comments-date {
+                    color: $theme-color;
+                }
+                .reply-btn {
+                    background-color: $theme-color;
+                }
+            }
+        }
+        .comments-pagination li a {
+            &:hover,
+            &:focus {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+#respond {
+    input[type="text"],
+    input[type="email"],
+    input[type="url"] {
+        &:focus {
+            border-color: $theme-color;
+        }
+    }
+    textarea {
+        &:focus {
+            border-color: $theme-color;
+        }
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $theme-color;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: $theme-color;
+}

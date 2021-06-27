@@ -1,0 +1,105 @@
+#sm-restaurant-menu {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    .sm-restaurant-menu-area {
+        display: inline;
+        float: left;
+        width: 100%;
+        .sm-restaurant-menu-content {
+            display: inline;
+            float: left;
+            margin-top: 30px;
+            width: 100%;
+            .sm-restaurant-menu {
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                li {
+                    display: inline-block;
+                    float: none;
+                    a {
+                        font-family: $heading-font;
+                        font-size: 18px;
+                        border-radius: 0;
+                        color: #fff;
+                        font-size: 18px;
+                        margin: 0 15px;
+                        @include transition(all 0.5s);
+                    }
+                }
+                .active {
+                    a,
+                    a:hover,
+                    a:focus {
+                        background-color: #FFF;
+                    }
+                }
+            }
+            .sm-tab-content-area {
+                display: inline;
+                float: left;
+                width: 100%;
+                padding: 50px 0;
+                .sm-tab-content-left {
+                    display: inline;
+                    float: left;
+                    padding-right: 15px;
+                    width: 100%;
+                }
+                .sm-tab-content-right {
+                    display: inline;
+                    float: left;
+                    padding-left: 15px;
+                    width: 100%;
+                }
+                .sm-menu-item-nav {
+                    li {
+                        border-bottom: 1px dashed #ccc;
+                        display: inline;
+                        float: left;
+                        margin-bottom: 20px;
+                        padding-bottom: 15px;
+                        width: 100%;
+                        &:last-child {
+                            border-bottom: none;
+                            margin-bottom: 0;
+                        }
+                        .media {
+                            .media-left {
+                                width: 110px;
+                                height: 110px;
+                                a {
+                                    img {
+                                        width: 110px;
+                                        height: 110px;
+                                    }
+                                }
+                            }
+                            .media-body {
+                                .media-heading {
+                                    font-size: 20px;
+                                    margin-bottom: 10px;
+                                    a {
+                                        @include transition(all 0.5s);
+                                    }
+                                }
+                                .sm-menu-price {
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    letter-spacing: 1.5px;
+                                    line-height: 20px;
+                                }
+                                p {
+                                    margin-top: 10px;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

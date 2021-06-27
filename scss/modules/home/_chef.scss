@@ -1,0 +1,106 @@
+#sm-chef {
+    @include section_essentials;
+    .sm-chef-area {
+        display: inline;
+        float: left;
+        width: 100%;
+        .sm-chef-content {
+            display: inline;
+            float: left;
+            margin-top: 30px;
+            padding-bottom: 60px;
+            width: 100%;
+            .sm-chef-nav {
+                display: inline;
+                float: left;
+                text-align: center;
+                width: 100%;
+                .slick-list {
+                    li {
+                        background-color: #f8f8f8;
+                        display: inline-block;
+                        margin: 0 5px;
+                        width: 22%;
+                        overflow: hidden;
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        .sm-single-chef {
+                            display: inline;
+                            float: left;
+                            width: 100%;
+                            position: relative;
+                            &:hover {
+                                .sm-single-chef-social {
+                                    bottom: 0;
+                                    opacity: 1;
+                                }
+                            }
+                            .sm-single-chef-img {
+                                display: inline;
+                                float: left;
+                                width: 100%;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            .sm-single-chef-info {
+                                display: inline;
+                                float: left;
+                                padding: 10px 10px 20px;
+                                width: 100%;
+                                h4 {
+                                    margin-bottom: 5px;
+                                }
+                                span {
+                                    font-size: 14px;
+                                    letter-spacing: 0.5px;
+                                }
+                            }
+                            .sm-single-chef-social {
+                                background-color: #000;
+                                position: absolute;
+                                bottom: -100%;
+                                left: 0;
+                                right: 0;
+                                padding: 23px 20px;
+                                text-align: center;
+                                opacity: 0;
+                                @include transition(all 0.5s);
+                                a {
+                                    display: inline-block;
+                                    margin: 0 5px;
+                                    padding: 5px;
+                                    text-align: center;
+                                    width: 35px;
+                                    @include transition(all 0.5s);
+                                    &:hover,
+                                    &:focus {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .slick-dots {
+                    text-align: center;
+                    margin-bottom: -30px;
+                    li {
+                        border-radius: 50%;
+                        width: 20px;
+                        display: inline-block;
+                        float: none;
+                        @include transition(all 0.5s);
+                        button {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

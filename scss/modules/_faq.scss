@@ -1,0 +1,82 @@
+#faq-btn {
+    cursor: pointer;
+}
+
+.sm-faq {
+    /* Hidden by default */
+    display: none;
+    /* Stay in place */
+    position: fixed;
+    /* Sit on top */
+    z-index: 1;
+    /* Location of the box */
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    /* Full width */
+    width: 100%;
+    /* Full height */
+    height: 100%;
+    /* Enable scroll if needed */
+    overflow: auto;
+    /* Fallback color */
+    background-color: rgb(0, 0, 0);
+    /* Black w/ opacity */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 50px;
+        border: 1px solid #888;
+        width: 80%;
+        /* The Close Button */
+        .close {
+            color: #000;
+            float: right;
+            font-size: 50px;
+            // opacity: .5;
+             :hover,
+             :focus {
+                font-weight: bold;
+                text-decoration: none;
+                cursor: pointer;
+                opacity: .8;
+            }
+        }
+        .collapsible {
+            background-color: #fefefe;
+            color: black;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            &:hover {
+                background-color: #dddddd;
+            }
+            &:after {
+                content: '\002B';
+                color: black;
+                font-weight: bold;
+                float: right;
+                margin-left: 5px;
+            }
+        }
+        .active {
+            background-color: #ddd;
+            &:after {
+                content: "\2212";
+            }
+        }
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #f1f1f1;
+        }
+    }
+}

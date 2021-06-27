@@ -1,0 +1,82 @@
+#sm-contact {
+    @include section_essentials;
+    .sm-contact-area {
+        display: inline;
+        float: left;
+        width: 100%;
+        .sm-contact-content {
+            display: inline;
+            float: left;
+            margin-top: 30px;
+            width: 100%;
+            .sm-contact-left {
+                display: inline;
+                float: left;
+                font-family: $heading-font;
+                width: 100%;
+                .form-group {
+                    margin-bottom: 25px;
+                    label {
+                        font-size: 16px;
+                        margin-bottom: 8px;
+                        letter-spacing: 0.5px;
+                    }
+                }
+                .sm-contact-form {
+                    input[type="text"],
+                    input[type="email"] {
+                        color: #000;
+                        border-radius: 0;
+                        height: 40px;
+                        &:focus {
+                            box-shadow: none;
+                        }
+                    }
+                    textarea {
+                        color: #000;
+                        border-radius: 0;
+                        padding: 10px;
+                        &:focus {
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+            .sm-contact-right {
+                display: inline;
+                float: left;
+                padding: 0 30px;
+                width: 100%;
+                .sm-contact-widget {
+                    display: inline;
+                    float: left;
+                    margin-bottom: 25px;
+                    width: 100%;
+                    h3 {
+                        margin-top: 0px;
+                    }
+                    &>p {
+                        letter-spacing: 0.5px;
+                        line-height: 26px;
+                    }
+                    address {
+                        margin-top: 20px;
+                        p {
+                            letter-spacing: 0.5px;
+                            i {
+                                margin-right: 10px;
+                                width: 20px;
+                                text-align: center;
+                            }
+                            span {
+                                display: inline-block;
+                                margin-right: 20px;
+                                min-width: 130px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
