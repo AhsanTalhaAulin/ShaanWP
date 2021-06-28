@@ -9,4 +9,4 @@ git commit -m '$commitMsg'
 
 git push 
 
-python3 updateDeploy.py
+python3 deploy.py
