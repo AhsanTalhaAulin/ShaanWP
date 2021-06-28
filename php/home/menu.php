@@ -24,51 +24,44 @@
                                 <div class="tab-pane fade in active" id="Rice">
                                     <div class="sm-tab-content-area">
                                         <div class="row">
-                                                        <?php  global $post;
-              $myposts = get_posts( array(
-              'posts_per_page' => 6,
-              'order'          => 'ASC',
-               'category'       => 4
-            ) );
-            if ( $myposts ) {
-              foreach ( $myposts as $post ) :
-              setup_postdata( $post ); ?>
-                                                
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            <div class="col-md-6">
-                                                <div class="sm-tab-content-left">
-                                                    <ul class="sm-menu-item-nav">
-                                                        <li>
-                                                            <div class="media">
-                                                                <div class="media-left">
-                                                                    <a href="#">
-                                                                        <?php the_post_thumbnail();  ?>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <h4 class="media-heading"><?php the_title();?></h4>
-                                                                    <span class="sm-menu-price"><?php get_secondary_title(1); ?></span>
-                                                                   <p><?php the_excerpt(); ?></p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            
-                                            
-                                                                       <?php
-            endforeach;
-            wp_reset_postdata();
-            }   ?>                
-                                            
-                                            
-                                            
+                                            <?php global $post;
+                                            $myposts = get_posts(array(
+                                                'posts_per_page' => 6,
+                                                'order'          => 'ASC',
+                                                'category'       => 4
+                                            ));
+                                            if ($myposts) {
+                                                foreach ($myposts as $post) :
+                                                    setup_postdata($post); ?>
+                                                    <div class="col-md-6">
+                                                        <div class="sm-tab-content-left">
+                                                            <ul class="sm-menu-item-nav">
+                                                                <li>
+                                                                    <div class="media">
+                                                                        <div class="media-left">
+                                                                            <a href="#">
+                                                                                <?php the_post_thumbnail();  ?>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <h4 class="media-heading"><?php the_title(); ?></h4>
+                                                                            <span class="sm-menu-price"><?php get_secondary_title(1); ?></span>
+                                                                            <p><?php the_excerpt(); ?></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+
+                                            <?php
+                                                endforeach;
+                                                wp_reset_postdata();
+                                            }   ?>
+
+
+
                                             <div class="col-md-6">
                                                 <div class="sm-tab-content-right">
                                                     <ul class="sm-menu-item-nav">
@@ -76,7 +69,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/mutton-kacchi.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/mutton-kacchi.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -90,7 +83,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/beef-tehari.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/beef-tehari.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -104,7 +97,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/beef-tehari.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/beef-tehari.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -130,7 +123,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/chicken-rezala.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/chicken-rezala.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -144,7 +137,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/beef-rezala.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/beef-rezala.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -158,7 +151,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/mutton-rezala.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/mutton-rezala.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -178,7 +171,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/chicken-roast.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/chicken-roast.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -192,7 +185,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/chicken-full-roast.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/chicken-full-roast.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -206,7 +199,7 @@
                                                             <div class="media vanish">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-4.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-4.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -232,7 +225,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/kabab.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/kabab.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -246,7 +239,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/chicken-grill.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/chicken-grill.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -260,7 +253,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/rui-fish-fry.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/rui-fish-fry.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -280,7 +273,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/prawn-stick.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/prawn-stick.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -294,7 +287,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/vegetable-curry.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/vegetable-curry.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -308,7 +301,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/vegetable-chinese.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/vegetable-chinese.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -334,7 +327,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/jorda-cup.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/jorda-cup.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -348,7 +341,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/jorda-basmati-rice.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/jorda-basmati-rice.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -362,7 +355,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/baby-sweets.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/baby-sweets.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -382,7 +375,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/cup-firni.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/cup-firni.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -396,7 +389,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/borhani.png" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/borhani.png" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -410,7 +403,7 @@
                                                             <div class="media vanish">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-8.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-8.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -436,7 +429,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-9.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-9.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -450,7 +443,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-10.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-10.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -464,7 +457,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-9.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-9.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -484,7 +477,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-9.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-9.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -498,7 +491,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-10.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-10.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
@@ -512,7 +505,7 @@
                                                             <div class="media">
                                                                 <div class="media-left">
                                                                     <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/item-9.jpg" alt="img">
+                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/item-9.jpg" alt="img">
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
