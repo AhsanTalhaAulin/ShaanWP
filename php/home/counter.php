@@ -16,7 +16,7 @@
                                 <li class="col-md-3 col-sm-3 col-xs-12">
                                     <div class="sm-single-counter">
                                         <span>Delicious</span>
-                                        <h3><span class="counter">130</span><sup>+</sup></h3>
+                                        <h3><span class="counter">150</span><sup>+</sup></h3>
                                         <p>Lunch Items</p>
                                     </div>
                                 </li>

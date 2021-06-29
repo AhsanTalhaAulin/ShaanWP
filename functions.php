@@ -40,3 +40,24 @@ function special_nav_class($classes, $item){
 }
 
 add_filter( "single_template", "get_custom_cat_template" ) ;
+
+/* Custom Post Type Start */
+function create_posttype()
+{
+	register_post_type(
+		'menu',
+		// CPT Options
+		array(
+			'labels' => array(
+				'name' => __('menu'),
+				'singular_name' => __('menu')
+			),
+			'public' => true,
+			'has_archive' => false,
+			'rewrite' => array('slug' => 'menu'),
+		)
+	);
+}
+// Hooking up our function to theme setup
+add_action('init', 'create_posttype');
+		/* Custom Post Type End */
