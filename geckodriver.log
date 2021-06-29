@@ -113,3 +113,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1624971607256	Marionette	INFO	Listening on port 36165
 1624971607312	Marionette	WARN	TLS certificate errors will be ignored for this session
 1624971625918	Marionette	INFO	Stopped listening on port 36165
+1624971716381	geckodriver	INFO	Listening on 127.0.0.1:32931
+1624971716386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS4BxRm"
+1624971717058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS4BxRm/search.json.mozlz4", (void 0)))
+1624971719037	Marionette	INFO	Listening on port 43705
+1624971719119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624971733305	Marionette	INFO	Stopped listening on port 43705
