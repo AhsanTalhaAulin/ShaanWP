@@ -62,7 +62,7 @@
 
 
 
-                                            <div class="col-md-6">
+                                            <!-- <div class="col-md-6">
                                                 <div class="sm-tab-content-right">
                                                     <ul class="sm-menu-item-nav">
                                                         <li>
@@ -109,7 +109,7 @@
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
