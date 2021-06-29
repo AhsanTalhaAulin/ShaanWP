@@ -45,12 +45,12 @@ add_filter( "single_template", "get_custom_cat_template" ) ;
 function create_posttype()
 {
 	register_post_type(
-		'menu',
+		'Menu',
 		// CPT Options
 		array(
 			'labels' => array(
-				'name' => __('menu'),
-				'singular_name' => __('menu')
+				'name' => __('Menu'),
+				'singular_name' => __('Menu')
 			),
 			'public' => true,
 			'has_archive' => false,
@@ -61,3 +61,4 @@ function create_posttype()
 // Hooking up our function to theme setup
 add_action('init', 'create_posttype');
 		/* Custom Post Type End */
+
