@@ -1,9 +1,9 @@
 <?php
 
 /**
- * datasoft
+ * 
  *
- * @package datasoft
+ * @package 
  */
 /**
  * Required WordPress variable.
@@ -19,15 +19,7 @@ if (function_exists('add_theme_support')) {
     // delete the next line if you do not need additional image sizes
     add_image_size('category-thumb', 300, 9999); //300 pixels wide (and unlimited height)
 }
-$args = array(
-    'name'          => __('Main Sidebar', 'DataSoft'),
-    'id'            => 'sidebar-1',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-);
-register_sidebar($args);
+
 
 @ini_set('upload_max_size', '64M');
 @ini_set('post_max_size', '64M');
@@ -42,18 +34,6 @@ function special_nav_class($classes, $item)
 }
 
 add_filter("single_template", "get_custom_cat_template");
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -148,3 +128,16 @@ function custom_post_type()
     */
 
 add_action('init', 'custom_post_type', 0);
+
+function filter_secondary_title_change_default_setting($original_default_settings) {
+    /** Naming variables to keep things clear */
+    $default_settings = $original_default_settings;
+
+    /** Defining the new title format */
+    $default_settings["secondary_title_title_format"] = "%title% (%secondary_title%)";
+
+    /** Return modified array back to the main function */
+    return (array)$default_settings;
+ }
+
+ add_filter("secondary_title_get_default_settings", "filter_secondary_title_change_default_setting");
