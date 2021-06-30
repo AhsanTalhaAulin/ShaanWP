@@ -336,3 +336,10 @@ http://requirejs.org/docs/errors.html#scripterror
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1625055459105	geckodriver	INFO	Listening on 127.0.0.1:50539
+1625055459109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW3573M"
+1625055459753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW3573M/search.json.mozlz4", (void 0)))
+1625055461599	Marionette	INFO	Listening on port 46047
+1625055461634	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625055478991	Marionette	INFO	Stopped listening on port 46047
