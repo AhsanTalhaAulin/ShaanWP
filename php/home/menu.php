@@ -27,16 +27,7 @@
                             <i class="fa fa-spoon"></i>
                             <span class="sm-title-bar"></span>
                         </div>
-                        <div>
-                            <?php
 
-
-
-                            $categories = get_the_category();
-
-                            var_dump($categories);
-                            ?>
-                        </div>
                         <div class="sm-restaurant-menu-content">
                             <ul class="nav nav-tabs sm-restaurant-menu">
 
