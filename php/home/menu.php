@@ -5,14 +5,12 @@
         array('parent' => 3)
     );
     echo '<pre> ';
-    var_dump($categories);
+    // var_dump($categories);
     echo '</pre>';
-    $ourMenu = array(
-        array('position' => 1, 'title' => 'Rice', 'category_id' => 4),
-        array('position' => 2, 'title' => 'Rice', 'category_id' => 2),
-        array('position' => 3, 'title' => 'Rice', 'category_id' => 4),
-        array('position' => 4, 'title' => 'Rice', 'category_id' => 4),
-    )
+    foreach($categories as $category){
+        var_dump($category['name']);
+    }
+
     ?>
 
 
@@ -35,7 +33,7 @@
                                     var_dump($category['name']);
                                 ?>
                                     
-                                    <li class=" <?php echo  $category['name'] == 'Curry' ? 'active' : ''; ?>"><a href="#<?php echo $category['name']; ?>" data-toggle="tab"><?php echo $category['name']; ?></a></li>
+                                    <li class=" <?php echo  $category['name'] == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $category['name']; ?>" data-toggle="tab"><?php echo $category['name']; ?></a></li>
                                 <?php } ?>
 
                                 <!-- <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
@@ -48,7 +46,7 @@
                             <div class="tab-content">
                                 <?php foreach ($categories as $category) { ?>
 
-                                    <div class="tab-pane fade in <?php echo  $category['name'] == 'Curry' ? 'active' : ''; ?>" id="<?php echo $category['name']; ?>">
+                                    <div class="tab-pane fade in <?php echo  $category['name'] == 'Rice' ? 'active' : ''; ?>" id="<?php echo $category['name']; ?>">
                                         <div class="sm-tab-content-area">
                                             <div class="row">
                                                 <?php global $post;
