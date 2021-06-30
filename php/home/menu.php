@@ -7,7 +7,10 @@
     echo '<pre> ';
     // var_dump($categories);
     foreach($categories as $category){
-        var_dump($category->getName());
+        
+        var_dump($category->cat_name);
+        var_dump($category->name);
+
     }
     echo '</pre>';
 
