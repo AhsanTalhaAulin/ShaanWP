@@ -1,17 +1,17 @@
     <!-- Start Restaurant Menu -->
 
-    <?php 
-    $categories=get_categories(
-        array( 'parent' => 3)
+    <?php
+    $categories = get_categories(
+        array('parent' => 3)
     );
     echo '<pre> ';
     var_dump($categories);
-echo '</pre>';
-    $ourMenu = array( 
-        array('position' => 1,'title'=>'Rice','category_id'=>4),
-        array('position' => 2,'title'=>'Rice','category_id'=>2),
-        array('position' => 3,'title'=>'Rice','category_id'=>4),
-        array('position' => 4,'title'=>'Rice','category_id'=>4),
+    echo '</pre>';
+    $ourMenu = array(
+        array('position' => 1, 'title' => 'Rice', 'category_id' => 4),
+        array('position' => 2, 'title' => 'Rice', 'category_id' => 2),
+        array('position' => 3, 'title' => 'Rice', 'category_id' => 4),
+        array('position' => 4, 'title' => 'Rice', 'category_id' => 4),
     )
     ?>
 
@@ -28,72 +28,78 @@ echo '</pre>';
                             <span class="sm-title-bar"></span>
                         </div>
                         <div>
-                        <?php
-                            
-                            
-                    
+                            <?php
+
+
+
                             $categories = get_the_category();
-                             
+
                             var_dump($categories);
-                        ?>
+                            ?>
                         </div>
                         <div class="sm-restaurant-menu-content">
                             <ul class="nav nav-tabs sm-restaurant-menu">
+                                <?php foreach ($categories as $category) {
+                                ?>
+                                    <li class=" <?php echo  $category['name'] == 'Curry' ? 'active' : ''; ?>"><a href="#<?php echo $category['name']; ?>" data-toggle="tab"><?php echo $category['name']; ?></a></li>
+                                <?php } ?>
 
-                                <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
+                                <!-- <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
                                 <li><a href="#Curry" data-toggle="tab">Curry</a></li>
                                 <li><a href="#Sides" data-toggle="tab">Sides</a></li>
-                                <li><a href="#desserts" data-toggle="tab">Desserts</a></li>
+                                <li><a href="#desserts" data-toggle="tab">Desserts</a></li> -->
                             </ul>
 
                             <!-- Tab panes -->
                             <div class="tab-content">
+                                <?php foreach ($categories as $category) { ?>
 
-                                <div class="tab-pane fade in active" id="Rice">
-                                    <div class="sm-tab-content-area">
-                                        <div class="row">
-                                            <?php global $post;
-                                            $myposts = get_posts(array(
-                                                'posts_per_page' => 6,
-                                                'order'          => 'ASC',
-                                                'category'       => 4
-                                            ));
-                                            if ($myposts) {
-                                                foreach ($myposts as $post) :
-                                                    setup_postdata($post); ?>
-                                                    <div class="col-md-6 ">
-                                                        <div class="sm-tab-content-left">
-                                                            <ul class="sm-menu-item-nav">
-                                                                <li>
-                                                                    <div class="media">
-                                                                        <div class="media-left">
-                                                                            <a href="#">
-                                                                                <?php the_post_thumbnail();  ?>
-                                                                            </a>
+                                    <div class="tab-pane fade in <?php echo  $category['name'] == 'Curry' ? 'active' : ''; ?>" id="<?php echo $category['name']; ?>">
+                                        <div class="sm-tab-content-area">
+                                            <div class="row">
+                                                <?php global $post;
+                                                $myposts = get_posts(array(
+                                                    'posts_per_page' => 6,
+                                                    'order'          => 'ASC',
+                                                    'category'       => $category['term_id']
+                                                ));
+                                                if ($myposts) {
+                                                    foreach ($myposts as $post) :
+                                                        setup_postdata($post); ?>
+                                                        <div class="col-md-6 ">
+                                                            <div class="sm-tab-content-left">
+                                                                <ul class="sm-menu-item-nav">
+                                                                    <li>
+                                                                        <div class="media">
+                                                                            <div class="media-left">
+                                                                                <a href="#">
+                                                                                    <?php the_post_thumbnail();  ?>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="media-body">
+                                                                                <h4 class="media-heading"><?php the_title(); ?></h4>
+                                                                                <span class="sm-menu-price"><?php the_secondary_title(); ?></span>
+                                                                                <p><?php the_excerpt(); ?></p>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="media-body">
-                                                                            <h4 class="media-heading"><?php the_title(); ?></h4>
-                                                                            <span class="sm-menu-price"><?php the_secondary_title(); ?></span>
-                                                                            <p><?php the_excerpt(); ?></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                            </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                    </div>
 
 
-                                            <?php
-                                                endforeach;
-                                                wp_reset_postdata();
-                                            }   ?>
+                                                <?php
+                                                    endforeach;
+                                                    wp_reset_postdata();
+                                                }   ?>
 
 
 
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade " id="Curry">
+                                <?php } ?>
+                                <!-- <div class="tab-pane fade " id="Curry">
                                     <div class="sm-tab-content-area">
                                         <div class="row">
                                             <div class="col-md-6">
@@ -313,7 +319,7 @@ echo '</pre>';
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Jorda</a></h4>
                                                                     <span class="sm-menu-price">৳25 per serve</span>
-                                                                    <!-- <p>per person</p> -->
+                                                                   <p>per person</p> 
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -500,7 +506,7 @@ echo '</pre>';
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
