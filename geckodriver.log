@@ -368,3 +368,10 @@ http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
 http://requirejs.org/docs/errors.html#scripterror
 1625055750395	Marionette	INFO	Stopped listening on port 45729
+1625055930451	geckodriver	INFO	Listening on 127.0.0.1:59167
+1625055930456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLzTfLM"
+1625055931093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLzTfLM/search.json.mozlz4", (void 0)))
+1625055933050	Marionette	INFO	Listening on port 45361
+1625055933081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625055949295	Marionette	INFO	Stopped listening on port 45361
