@@ -57,7 +57,7 @@
                                                 $myposts = get_posts(array(
                                                     'posts_per_page' => 6,
                                                     'order'          => 'ASC',
-                                                    'category'       => $category->cat_id
+                                                    'category'       => $category->term_id
                                                 ));
                                                 if ($myposts) {
                                                     foreach ($myposts as $post) :
