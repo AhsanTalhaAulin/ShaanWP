@@ -272,3 +272,14 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1625053406400	Marionette	INFO	Listening on port 33019
 1625053406497	Marionette	WARN	TLS certificate errors will be ignored for this session
 1625053423994	Marionette	INFO	Stopped listening on port 33019
+1625053627507	geckodriver	INFO	Listening on 127.0.0.1:59843
+1625053627511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexGon3a"
+1625053628156	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexGon3a/search.json.mozlz4", (void 0)))
+1625053630105	Marionette	INFO	Listening on port 42117
+1625053630140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: locale
+http://requirejs.org/docs/errors.html#scripterror
+1625053648144	Marionette	INFO	Stopped listening on port 42117
