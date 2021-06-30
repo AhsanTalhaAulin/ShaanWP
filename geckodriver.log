@@ -283,3 +283,19 @@ http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: locale
 http://requirejs.org/docs/errors.html#scripterror
 1625053648144	Marionette	INFO	Stopped listening on port 42117
+1625053936427	geckodriver	INFO	Listening on 127.0.0.1:54271
+1625053936430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyVAf8T"
+1625053937122	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyVAf8T/search.json.mozlz4", (void 0)))
+1625053939159	Marionette	INFO	Listening on port 34253
+1625053939257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625053955186	Marionette	INFO	Stopped listening on port 34253
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

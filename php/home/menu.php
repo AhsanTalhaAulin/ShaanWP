@@ -2,7 +2,7 @@
 
     <?php 
     $categories=get_categories(
-        array( 'parent' => $cat-> 3)
+        array( 'parent' => 3)
     );
     echo '<pre> ';
     var_dump($categories);
