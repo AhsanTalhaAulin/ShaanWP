@@ -1,4 +1,20 @@
     <!-- Start Restaurant Menu -->
+
+    <?php 
+    $categories=get_categories(
+        array( 'parent' => $cat->cat_ID )
+    );
+    var_dump($categories);
+
+    $ourMenu = array( 
+        array('position' => 1,'title'=>'Rice','category_id'=>4),
+        array('position' => 2,'title'=>'Rice','category_id'=>2),
+        array('position' => 3,'title'=>'Rice','category_id'=>4),
+        array('position' => 4,'title'=>'Rice','category_id'=>4),
+    )
+    ?>
+
+
     <section id="sm-restaurant-menu">
         <div class="container">
             <div class="row">
@@ -101,7 +117,7 @@
                                                                 <div class="media-left">
                                                                     <a href="#">
                                                                         <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/beef-rezala.png" alt="img">
-                                                                    </a>
+                                                                        array('position' => 1,'title'=>'Rice','category_id'=>4),         </a>
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Beef Rezala / (Kala) Bhuna / Curry (Bone-in)</a></h4>
