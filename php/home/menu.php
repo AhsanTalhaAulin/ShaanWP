@@ -10,17 +10,28 @@
                             <i class="fa fa-spoon"></i>
                             <span class="sm-title-bar"></span>
                         </div>
+                        <div>
+                        <?php
+                            
+                            
+                    
+                            $categories = get_the_category();
+                             
+                            var_dump($categories);
+                        ?>
+                        </div>
                         <div class="sm-restaurant-menu-content">
                             <ul class="nav nav-tabs sm-restaurant-menu">
+
                                 <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
                                 <li><a href="#Curry" data-toggle="tab">Curry</a></li>
                                 <li><a href="#Sides" data-toggle="tab">Sides</a></li>
                                 <li><a href="#desserts" data-toggle="tab">Desserts</a></li>
-                                <li class="vanish"><a href="#drinks" data-toggle="tab">Drinks</a></li>
                             </ul>
 
                             <!-- Tab panes -->
                             <div class="tab-content">
+
                                 <div class="tab-pane fade in active" id="Rice">
                                     <div class="sm-tab-content-area">
                                         <div class="row">
