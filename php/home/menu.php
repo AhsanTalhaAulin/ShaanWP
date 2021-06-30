@@ -8,7 +8,9 @@
     // var_dump($categories);
     foreach($categories as $category){
         
-        var_dump($category->name);
+        var_dump($category->term_id);
+        var_dump($category->cat_term_id);
+        var_dump($category->cat_id);
 
     }
     echo '</pre>';
@@ -55,7 +57,7 @@
                                                 $myposts = get_posts(array(
                                                     'posts_per_page' => 6,
                                                     'order'          => 'ASC',
-                                                    'category'       => $category->cat_term_id
+                                                    'category'       => $category->cat_id
                                                 ));
                                                 if ($myposts) {
                                                     foreach ($myposts as $post) :
