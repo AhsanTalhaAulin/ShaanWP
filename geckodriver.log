@@ -343,3 +343,17 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1625055461599	Marionette	INFO	Listening on port 46047
 1625055461634	Marionette	WARN	TLS certificate errors will be ignored for this session
 1625055478991	Marionette	INFO	Stopped listening on port 46047
+1625055533118	geckodriver	INFO	Listening on 127.0.0.1:58983
+1625055533122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2WNboE"
+1625055533768	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2WNboE/search.json.mozlz4", (void 0)))
+1625055535487	Marionette	INFO	Listening on port 45031
+1625055535544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: locale
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
+http://requirejs.org/docs/errors.html#scripterror
+1625055550432	Marionette	INFO	Stopped listening on port 45031
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
