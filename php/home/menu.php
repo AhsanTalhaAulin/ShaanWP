@@ -33,7 +33,7 @@
                                             if ($myposts) {
                                                 foreach ($myposts as $post) :
                                                     setup_postdata($post); ?>
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-6 ">
                                                         <div class="sm-tab-content-left">
                                                             <ul class="sm-menu-item-nav">
                                                                 <li>
@@ -62,54 +62,6 @@
 
 
 
-                                            <div class="col-md-6">
-                                                <div class="sm-tab-content-right">
-                                                    <ul class="sm-menu-item-nav">
-                                                        <li>
-                                                            <div class="media">
-                                                                <div class="media-left">
-                                                                    <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/mutton-kacchi.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <h4 class="media-heading"><a href="#">Mutton Kacchi (Basmati Rice)</a></h4>
-                                                                    <span class="sm-menu-price">৳330 per serve</span>
-                                                                    <p></p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="media">
-                                                                <div class="media-left">
-                                                                    <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/beef-tehari.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <h4 class="media-heading"><a href="#">Beef tehari</a></h4>
-                                                                    <span class="sm-menu-price">৳165 per serve</span>
-                                                                    <p>1/6 Kg</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="media">
-                                                                <div class="media-left">
-                                                                    <a href="#">
-                                                                        <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/beef-tehari.jpg" alt="img">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <h4 class="media-heading"><a href="#">Beef tehari</a></h4>
-                                                                    <span class="sm-menu-price">৳195</span>
-                                                                    <p>1/5 Kg</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
