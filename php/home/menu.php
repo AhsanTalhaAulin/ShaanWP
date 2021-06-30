@@ -45,7 +45,7 @@
                                                                         </div>
                                                                         <div class="media-body">
                                                                             <h4 class="media-heading"><?php the_title(); ?></h4>
-                                                                            <span class="sm-menu-price"><?php the_title(); ?></span>
+                                                                            <span class="sm-menu-price"><?php get_secondary_title(); ?></span>
                                                                             <p><?php the_excerpt(); ?></p>
                                                                         </div>
                                                                     </div>
