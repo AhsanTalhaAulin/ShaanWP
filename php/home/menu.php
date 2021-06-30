@@ -4,8 +4,9 @@
     $categories=get_categories(
         array( 'parent' => $cat->cat_ID )
     );
+    echo '<pre> ';
     var_dump($categories);
-
+echo '</pre>';
     $ourMenu = array( 
         array('position' => 1,'title'=>'Rice','category_id'=>4),
         array('position' => 2,'title'=>'Rice','category_id'=>2),
