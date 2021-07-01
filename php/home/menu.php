@@ -5,20 +5,15 @@
         array('parent' => 3)
     );
     echo '<pre> ';
-    var_dump($categories);
-    
+    // var_dump($categories);
     foreach($categories as $category){
         
         var_dump($category->term_id);
         var_dump($category->cat_term_id);
         var_dump($category->cat_id);
-
     }
     echo '</pre>';
-
     ?>
-
-
     <section id="sm-restaurant-menu">
         <div class="container">
             <div class="row">
@@ -30,21 +25,22 @@
                             <i class="fa fa-spoon"></i>
                             <span class="sm-title-bar"></span>
                         </div>
-
                         <div class="sm-restaurant-menu-content">
                             <ul class="nav nav-tabs sm-restaurant-menu">
-
                                 <?php foreach ($categories as $category) {
                                     
                                 ?>
+                                    
                                     <li class=" <?php echo  $category->name == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $category->name; ?>" data-toggle="tab"><?php echo $category->name; ?></a></li>
                                 <?php } ?>
+                                <!-- <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
+                                <li><a href="#Curry" data-toggle="tab">Curry</a></li>
+                                <li><a href="#Sides" data-toggle="tab">Sides</a></li>
+                                <li><a href="#desserts" data-toggle="tab">Desserts</a></li> -->
                             </ul>
-
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <?php foreach ($categories as $category) { ?>
-
                                     <div class="tab-pane fade in <?php echo  $category->name == 'Rice' ? 'active' : ''; ?>" id="<?php echo $category->name; ?>">
                                         <div class="sm-tab-content-area">
                                             <div class="row">
@@ -77,15 +73,10 @@
                                                                 </ul>
                                                             </div>
                                                         </div>
-
-
                                                 <?php
                                                     endforeach;
                                                     wp_reset_postdata();
                                                 }   ?>
-
-
-
                                             </div>
                                         </div>
                                     </div>
