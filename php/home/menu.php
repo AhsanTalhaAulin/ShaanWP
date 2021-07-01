@@ -5,15 +5,15 @@
         array('parent' => 3)
     );
     echo '<pre> ';
-    // var_dump($categories);
+    var_dump($categories);
     
-    // foreach($categories as $category){
+    foreach($categories as $category){
         
-    //     var_dump($category->term_id);
-    //     var_dump($category->cat_term_id);
-    //     var_dump($category->cat_id);
+        var_dump($category->term_id);
+        var_dump($category->cat_term_id);
+        var_dump($category->cat_id);
 
-    // }
+    }
     echo '</pre>';
 
     ?>
