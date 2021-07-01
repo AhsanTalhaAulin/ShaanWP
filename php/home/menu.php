@@ -37,7 +37,7 @@
                                 <?php foreach ($categories as $category) {
                                     
                                 ?>
-                                    $categoryName = <?php echo $categoryName; ?>;
+                                    $categoryName = <?php echo $category->name; ?>;
                                     <li class=" <?php echo  $categoryName == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $categoryName; ?>" data-toggle="tab"><?php echo $categoryName; ?></a></li>
                                 <?php } ?>
                             </ul>
