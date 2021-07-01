@@ -1,11 +1,11 @@
     <!-- Start Restaurant Menu -->
 
     <?php
-    // $categories = get_categories(
-    //     array('parent' => 3)
-    // );
-    // echo '<pre> ';
-    // // var_dump($categories);
+    $categories = get_categories(
+        array('parent' => 3)
+    );
+    echo '<pre> ';
+    // var_dump($categories);
     
     // foreach($categories as $category){
         
@@ -14,7 +14,7 @@
     //     var_dump($category->cat_id);
 
     // }
-    // echo '</pre>';
+    echo '</pre>';
 
     ?>
 
