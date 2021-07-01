@@ -5,7 +5,7 @@
         array('parent' => 3)
     );
     echo '<pre> ';
-    // var_dump($categories);
+    var_dump($categories);
     foreach($categories as $category){
         
         var_dump($category->term_id);
@@ -28,10 +28,11 @@
                         <div class="sm-restaurant-menu-content">
                             <ul class="nav nav-tabs sm-restaurant-menu">
                                 <?php foreach ($categories as $category) {
-                                    
+                                
                                 ?>
+
                                     
-                                    <li class=" <?php echo  $category->name == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $category->name; ?>" data-toggle="tab"><?php echo $category->name; ?></a></li>
+                                    <!-- <li class=" <?php echo  $category->name == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $category->name; ?>" data-toggle="tab"><?php echo $category->name; ?></a></li> -->
                                 <?php } ?>
                                 <!-- <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
                                 <li><a href="#Curry" data-toggle="tab">Curry</a></li>
