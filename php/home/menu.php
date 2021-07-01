@@ -4,15 +4,15 @@
     $categories = get_categories(
         array('parent' => 3)
     );
-    echo '<pre> ';
-    var_dump($categories);
-    foreach($categories as $category){
+    // echo '<pre> ';
+    // var_dump($categories);
+    // foreach($categories as $category){
         
-        var_dump($category->term_id);
-        var_dump($category->cat_term_id);
-        var_dump($category->cat_id);
-    }
-    echo '</pre>';
+    //     var_dump($category->term_id);
+    //     var_dump($category->cat_term_id);
+    //     var_dump($category->cat_id);
+    // }
+    // echo '</pre>';
     ?>
     <section id="sm-restaurant-menu">
         <div class="container">
@@ -32,7 +32,7 @@
                                 ?>
 
                                     
-                                    <!-- <li class=" <?php echo  $category->name == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $category->name; ?>" data-toggle="tab"><?php echo $category->name; ?></a></li> -->
+                                    <li class=" <?php echo  $category->name == 'Rice' ? 'active' : ''; ?>"><a href="#<?php echo $category->name; ?>" data-toggle="tab"><?php echo $category->name; ?></a></li>
                                 <?php } ?>
                                 <!-- <li class="active"><a href="#Rice" data-toggle="tab">Rice</a></li>
                                 <li><a href="#Curry" data-toggle="tab">Curry</a></li>
