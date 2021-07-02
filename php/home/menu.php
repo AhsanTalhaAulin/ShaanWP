@@ -5,7 +5,7 @@
         array('parent' => 3)
     );
 
-    $columns = array_column($categories, 'term_id');
+    // $columns = array_column($categories, 'term_id');
     // array_multisort($columns, SORT_ASC, $categories);
 
 
