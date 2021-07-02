@@ -4,21 +4,15 @@
     $categories = get_categories(
         array('parent' => 3)
     );
-
-    // $columns = array_column($categories, 'term_id');
-    // array_multisort($columns, SORT_ASC, $categories);
-
-
-
     echo '<pre> ';
     var_dump($categories);
-    // foreach($categories as $category){
+    foreach($categories as $category){
         
-    //     var_dump($category->term_id);
-    //     var_dump($category->cat_term_id);
-    //     var_dump($category->cat_id);
-    // }
-    // echo '</pre>';
+        var_dump($category->term_id);
+        var_dump($category->cat_term_id);
+        var_dump($category->cat_id);
+    }
+    echo '</pre>';
     ?>
     <section id="sm-restaurant-menu">
         <div class="container">
