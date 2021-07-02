@@ -4,6 +4,12 @@
     $categories = get_categories(
         array('parent' => 3)
     );
+
+    $columns = array_column($categories, 'term_id');
+    array_multisort($columns, SORT_ASC, $categories);
+
+
+
     echo '<pre> ';
     var_dump($categories);
     // foreach($categories as $category){
