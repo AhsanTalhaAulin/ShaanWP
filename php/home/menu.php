@@ -6,7 +6,7 @@
     );
 
     $columns = array_column($categories, 'term_id');
-    array_multisort($columns, SORT_ASC, $categories);
+    // array_multisort($columns, SORT_ASC, $categories);
 
 
 
