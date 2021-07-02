@@ -4,8 +4,9 @@
     $categories = get_categories(
         array('parent' => 3)
     );
+    $columns = array_column($categories, "name");
     echo '<pre> ';
-    var_dump($categories);
+    var_dump($columns);
     foreach($categories as $category){
         
         var_dump($category->term_id);
