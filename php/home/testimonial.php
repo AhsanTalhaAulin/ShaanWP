@@ -33,7 +33,7 @@
                                                     </div>
                                                     <div class="sm-testimonial-bio">
 
-                                                        <p><span><?php the_title(); ?></span> <?php the_secondary_title(); ?></p>
+                                                        <p><span><?php the_title(); ?></span> <br> <?php the_secondary_title(); ?></p>
 
                                                     </div>
                                                 </div>
