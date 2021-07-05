@@ -5,16 +5,24 @@
         array('parent' => 3)
     );
     $columns = array_column($categories, "name");
+    var_dump($columns);
+
+    array_multisort( array_column($categories, "term_id"), SORT_ASC, $categories );
+
+    $columns = array_column($categories, "name");
+    var_dump($columns);
+
     echo '<pre> ';
     var_dump($columns);
     foreach($categories as $category){
         
         var_dump($category->term_id);
-        var_dump($category->cat_term_id);
-        var_dump($category->cat_id);
+
     }
     echo '</pre>';
     ?>
+
+    
     <section id="sm-restaurant-menu">
         <div class="container">
             <div class="row">
