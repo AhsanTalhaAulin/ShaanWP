@@ -47,6 +47,7 @@
 
     <!-- Start Client Testimonial section -->
     <?php include "php/home/testimonial.php" ?>
+    <?php include "php/home/testimonial_copy.php" ?>
 
 
 

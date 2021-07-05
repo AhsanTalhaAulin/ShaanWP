@@ -32,8 +32,9 @@
                                                         <p><?php the_excerpt(); ?></p>
                                                     </div>
                                                     <div class="sm-testimonial-bio">
-                                                        <p><?php the_title(); ?></p>
-                                                        <p><?php the_secondary_title(); ?></p>
+
+                                                        <p><span><?php the_title(); ?></span> <?php the_secondary_title(); ?></p>
+
                                                     </div>
                                                 </div>
                                             </li>
