@@ -19,7 +19,7 @@
 
                                     <?php global $post;
                                     $myposts = get_posts(array(
-                                        'posts_per_page' => 3,
+                                        'posts_per_page' => 5,
                                         'order'          => 'ASC',
                                         'category'       => 24
                                     ));
