@@ -14,7 +14,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="sm-contact-left">
-                                        <form class="sm-contact-form">
+                                        <form class="sm-contact-form" action="mail.php" method="POST">
                                             <div class="form-group">
                                                 <label for="name">Your Name</label>
                                                 <input type="text" class="form-control" id="name" placeholder="Name">
@@ -23,10 +23,10 @@
                                                 <label for="email">Email address</label>
                                                 <input type="email" class="form-control" id="email" placeholder="Email">
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <label for="subject">Subject</label>
                                                 <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            </div>
+                                            </div> -->
                                             <div class="form-group">
                                                 <label for="message">Message</label>
                                                 <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
@@ -39,7 +39,7 @@
                                     <div class="sm-contact-right">
                                         <div class="sm-contact-widget">
                                             <h3>Office Address</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+                                            <p>You can contact us in our office in Dhanmondi, the address is stated below. We have separate kitchens facitilities. You'r welcome to visit</p>
                                             <address>
                                                 <p><i class="fa fa-phone"></i> <a callto:"01911296565"> 01911296565 </a></p>
                                                 <p><i class="fa fa-envelope-o"></i>shaanmughalfoods@gmail.com</p>
