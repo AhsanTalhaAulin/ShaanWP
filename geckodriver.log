@@ -19540,3 +19540,13 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1625632836462	geckodriver	INFO	Listening on 127.0.0.1:42393
+1625632836467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletd3SnW"
+1625632837194	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletd3SnW/search.json.mozlz4", (void 0)))
+1625632839160	Marionette	INFO	Listening on port 46075
+1625632839202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625632853268	Marionette	INFO	Stopped listening on port 46075
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
