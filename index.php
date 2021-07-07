@@ -11,11 +11,11 @@
 
 
     <!-- Messenger -->
-    <!-- <?php include "php/messenger.php" ?> -->
+    <?php include "php/messenger.php" ?>
 
 
     <!-- Pre Loader -->
-    <!-- <?php include "php/preloader.php" ?> -->
+    <?php include "php/preloader.php" ?>
 
 
     <!--START SCROLL TOP BUTTON -->
