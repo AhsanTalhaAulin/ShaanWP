@@ -17,11 +17,11 @@
                                         <form class="sm-contact-form" action="mail.php" method="POST">
                                             <div class="form-group">
                                                 <label for="name">Your Name</label>
-                                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                                <input type="text" name="name" class="form-control" id="name" placeholder="Name">
                                             </div>
                                             <div class="form-group">
                                                 <label for="email">Email address</label>
-                                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                                <input type="email" name="email" class="form-control" id="email" placeholder="Email">
                                             </div>
                                             <!-- <div class="form-group">
                                                 <label for="subject">Subject</label>
@@ -29,7 +29,7 @@
                                             </div> -->
                                             <div class="form-group">
                                                 <label for="message">Message</label>
-                                                <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                                                <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
                                             </div>
                                             <button type="submit" class="sm-send-btn">Send Message</button>
                                         </form>

@@ -5,6 +5,15 @@
 
 
 <body>
+
+
+
+
+
+    <!-- Messenger -->
+    <!-- <?php include "php/messenger.php" ?> -->
+
+
     <!-- Pre Loader -->
     <!-- <?php include "php/preloader.php" ?> -->
 
