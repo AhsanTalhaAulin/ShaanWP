@@ -11,16 +11,7 @@
 
 
     <!-- Messenger -->
-    <?php include "php/messenger.php" ?>
-
-
-    <!-- Pre Loader -->
-    <?php include "php/preloader.php" ?>
-
-
-    <!--START SCROLL TOP BUTTON -->
-
-    <?php include "php/scrolltop.php" ?>
+    <?php //include "php/messenger.php" ?>
 
 
     <!-- Start header section -->
