@@ -15,39 +15,36 @@
                             <div class="sm-testimonial-content">
                                 <!-- testimonial slider -->
                                 <ul class="sm-testimonial-slider">
-                                    <li>
-                                        <div class="sm-testimonial-single">
-                                            <div class="sm-testimonial-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                    nesciunt fuga ab natus, dolorem?</p>
-                                            </div>
-                                            <div class="sm-testimonial-bio">
-                                                <p>- David Muller</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sm-testimonial-single">
-                                            <div class="sm-testimonial-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                    nesciunt fuga ab natus, dolorem?</p>
-                                            </div>
-                                            <div class="sm-testimonial-bio">
-                                                <p>- David Muller</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sm-testimonial-single">
-                                            <div class="sm-testimonial-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                    nesciunt fuga ab natus, dolorem?</p>
-                                            </div>
-                                            <div class="sm-testimonial-bio">
-                                                <p>- David Muller</p>
-                                            </div>
-                                        </div>
-                                    </li>
+
+
+                                    <?php global $post;
+                                    $myposts = get_posts(array(
+                                        'posts_per_page' => 5,
+                                        'order'          => 'ASC',
+                                        'category'       => 24
+                                    ));
+                                    if ($myposts) {
+                                        foreach ($myposts as $post) :
+                                            setup_postdata($post); ?>
+                                            <li>
+                                                <div class="sm-testimonial-single">
+                                                    <div class="sm-testimonial-info">
+                                                        <p><?php the_excerpt(); ?></p>
+                                                    </div>
+                                                    <div class="sm-testimonial-bio">
+
+                                                        <p><span><?php the_title(); ?></span> <br> <?php the_secondary_title(); ?></p>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+                                    <?php
+                                        endforeach;
+                                        wp_reset_postdata();
+                                    }   ?>
+
+
+
                                 </ul>
                             </div>
                         </div>
@@ -57,3 +54,42 @@
         </div>
     </section>
     <!-- End Client Testimonial section -->
+
+
+    <!-- testimonial slider -->
+    <ul class="sm-testimonial-slider">
+        <li>
+            <div class="sm-testimonial-single">
+                <div class="sm-testimonial-info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
+                        nesciunt fuga ab natus, dolorem?</p>
+                </div>
+                <div class="sm-testimonial-bio">
+                    <p>- David Muller</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="sm-testimonial-single">
+                <div class="sm-testimonial-info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
+                        nesciunt fuga ab natus, dolorem?</p>
+                </div>
+                <div class="sm-testimonial-bio">
+                    <p>- David Muller</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="sm-testimonial-single">
+                <div class="sm-testimonial-info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
+                        nesciunt fuga ab natus, dolorem?</p>
+                </div>
+                <div class="sm-testimonial-bio">
+                    <p>- David Muller</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    </div>

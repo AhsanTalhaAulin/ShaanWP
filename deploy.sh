@@ -9,4 +9,7 @@ git commit -m '$commitMsg'
 
 git push 
 
+echo "deploying.."
 python3 deploy.py
+
+echo "Your server has been updated"
