@@ -52,9 +52,9 @@
                                     </article>
                                 </div>
                             </div>
-                            <!-- Start brows more btn -->
-                            <a href="blog-archive.html" class="sm-browsmore-btn">BROWS MORE</a>
-                            <!-- End brows more btn -->
+                            <!-- Start browse more btn -->
+                            <a href="blog-archive.html" class="sm-browsmore-btn">BROWSE MORE</a>
+                            <!-- End browse more btn -->
                         </div>
                     </div>
                 </div>
