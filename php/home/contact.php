@@ -13,7 +13,7 @@
                         <div class="sm-contact-content">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <?php> wp_get_post( 179 )?>
+                                    <?php wp_get_post( 179 )?>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="sm-contact-right">
