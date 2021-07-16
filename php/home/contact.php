@@ -67,10 +67,10 @@
                 <label for="email">Email address</label>
                 <input type="email" name="email" class="form-control" id="email" placeholder="Email">
             </div>
-            <!-- <div class="form-group">
+            <div class="form-group">
                                                 <label for="subject">Subject</label>
                                                 <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            </div> -->
+                                            </div>
             <div class="form-group">
                 <label for="message">Message</label>
                 <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
