@@ -16,7 +16,7 @@
     var_dump($columns);
     foreach($categories as $category){
         
-        var_dump($category->term_id);
+     //   var_dump($category->term_id);
 
     }
     echo '</pre>';

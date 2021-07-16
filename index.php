@@ -54,11 +54,11 @@
 
 
     <!-- Start Chef Section -->
-    <?php include "php/home/clients.php" ?>
+    <?php // include "php/home/clients.php" ?>
 
 
     <!-- Start Latest News -->
-    <?php include "php/home/latest-news.php" ?>
+    <?php // include "php/home/latest-news.php" ?>
 
 
     <!-- Start Contact section -->
