@@ -13,7 +13,7 @@
                         <div class="sm-contact-content">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <?php  echo get_post_field('post_content', 179);?>
+                                    <?php  echo get_post_field('post_content', 178);?>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="sm-contact-right">
