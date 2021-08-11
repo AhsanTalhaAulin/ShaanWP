@@ -13,14 +13,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="sm-about-us-left">
-                                    <p>Old Dhaka based Very Authentic Catering Service provides food for any kind of Office program- Picnic, Annual General Meeting and Home program- Wedding, Anniversary, Birthday or any kinds of program. </p>
+                                    <p>Old Dhaka based Very Authentic Catering Service provides food for any kind of Office or Home program </p>
                                     <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
+                                        <li>Picnic,</li>
+                                        <li>Wedding</li>
+                                        <li>Anniversary</li>
+                                        <li>Birthday</li>
+                                        <li>Annual General Meeting </li>
                                     </ul>
                                     <p></p>
                                 </div>
