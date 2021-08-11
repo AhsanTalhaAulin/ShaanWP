@@ -375,7 +375,7 @@ img {
 #sm-slider .sm-slider-area .sm-top-slider .sm-top-slider-single .sm-top-slider-content {
   position: absolute;
   left: 15%;
-  top: 33%;
+  top: 45%;
   right: 15%;
   text-align: center;
   z-index: 99;
@@ -710,7 +710,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 #sm-restaurant-menu .sm-restaurant-menu-area {
