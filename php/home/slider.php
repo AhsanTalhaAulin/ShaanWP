@@ -8,9 +8,9 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/slider/1.jpg" alt="img">
                     <!-- Top slider content -->
                     <div class="sm-top-slider-content">
+                        <p></p>
                         <span class="sm-slider-small-title">Welcome TO </span>
                         <h2 class="sm-slider-title">Shaan Mughal Food Service</h2>
-                        <p></p>
                         <!-- <a href="#" class="sm-readmore-btn">READ MORE</a> -->
                     </div>
                     <!-- / Top slider content -->
@@ -21,9 +21,9 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/slider/2.jpg" alt="img">
                     <!-- Top slider content -->
                     <div class="sm-top-slider-content">
+                        <p></p>
                         <span class="sm-slider-small-title">Celebrate the taste of</span>
                         <h2 class="sm-slider-title">Shaan Mughal Food Service</h2>
-                        <p></p>
                         <!-- <a href="#" class="sm-readmore-btn">READ MORE</a> -->
                     </div>
                     <!-- / Top slider content -->
@@ -34,9 +34,9 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/slider/3.jpg" alt="img">
                     <!-- Top slider content -->
                     <div class="sm-top-slider-content">
+                        <p></p>
                         <span class="sm-slider-small-title">Make your events memorable with</span>
                         <h2 class="sm-slider-title">Shaan Mughal Food Service</h2>
-                        <p></p>
                         <!-- <a href="#" class="sm-readmore-btn">READ MORE</a> -->
                     </div>
                     <!-- / Top slider content -->
