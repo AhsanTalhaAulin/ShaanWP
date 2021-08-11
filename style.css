@@ -844,7 +844,11 @@ img {
 }
 
 #sm-gallery .sm-gallery-area .sm-gallery-content div.gallery {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  display: block;
+  overflow: hidden;
+  margin: 10px;
 }
 
 #sm-gallery .sm-gallery-area .sm-gallery-content div.gallery:hover {
