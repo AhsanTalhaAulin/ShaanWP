@@ -851,10 +851,6 @@ img {
   margin: 10px;
 }
 
-#sm-gallery .sm-gallery-area .sm-gallery-content div.gallery:hover {
-  border: 1px solid #777;
-}
-
 #sm-gallery .sm-gallery-area .sm-gallery-content div.gallery img {
   width: 100%;
   height: auto;
