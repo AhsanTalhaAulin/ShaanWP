@@ -12,14 +12,7 @@
     $columns = array_column($categories, "name");
     // var_dump($columns);
 
-    echo '<pre> ';
-    // var_dump($columns);
-    foreach($categories as $category){
-        
-     //   var_dump($category->term_id);
-
-    }
-    echo '</pre>';
+   
     ?>
 
     
