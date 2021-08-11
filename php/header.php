@@ -19,7 +19,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right sm-main-nav">
                         <li><a href="#sm-slider">HOME</a></li>
-                        <li><a href="our_services.php">OUR SERVICES</a></li>
+                        <li><a href="#sm-services">OUR SERVICES</a></li>
             
                         <li><a href="#sm-restaurant-menu">PRICING</a></li>
                         <!-- <li><a href="#sm-reservation">RESERVATION</a></li> -->
