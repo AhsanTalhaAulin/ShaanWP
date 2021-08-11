@@ -8,7 +8,7 @@
                             <ul class="sm-counter-nav">
                                 <li class="col-md-3 col-sm-3 col-xs-12">
                                     <div class="sm-single-counter">
-                                        <!-- <span>Fresh</span> -->
+                                        <span>Delicious</span>
                                         <h3><span class="counter">5</span><sup>+</sup></h3>
                                         <p>Rice Items</p>
                                     </div>
@@ -22,7 +22,7 @@
                                 </li>
                                 <li class="col-md-3 col-sm-3 col-xs-12">
                                     <div class="sm-single-counter">
-                                        <!-- <span>Hot</span> -->
+                                        <span>Delicious</span>
                                         <h3><span class="counter">10</span><sup>+</sup></h3>
                                         <p>Side Items</p>
                                     </div>
