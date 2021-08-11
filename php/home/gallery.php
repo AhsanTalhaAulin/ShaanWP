@@ -67,7 +67,7 @@
                                 </div>
                             </div>
 
-                            <div class="responsive">
+                            <!-- <div class="responsive">
                                 <div class="gallery">
                                     <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery7.jpg">
                                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery7.jpg"> 
@@ -83,7 +83,7 @@
                                     </a>
                                     <div class="desc">Add a description of the image here</div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

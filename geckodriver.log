@@ -19935,3 +19935,15 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628682904908	geckodriver	INFO	Listening on 127.0.0.1:49969
+1628682904913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewiQCdG"
+*** You are running in headless mode.
+1628682905417	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewiQCdG/search.json.mozlz4", (void 0)))
+1628682907014	Marionette	INFO	Listening on port 45089
+1628682907047	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628682919283	Marionette	INFO	Stopped listening on port 45089
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
