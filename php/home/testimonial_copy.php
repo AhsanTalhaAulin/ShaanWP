@@ -18,8 +18,7 @@
                                     <li>
                                         <div class="sm-testimonial-single">
                                             <div class="sm-testimonial-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                    nesciunt fuga ab natus, dolorem?</p>
+                                                <p></p>
                                             </div>
                                             <div class="sm-testimonial-bio">
                                                 <p>- David Muller</p>
@@ -29,8 +28,7 @@
                                     <li>
                                         <div class="sm-testimonial-single">
                                             <div class="sm-testimonial-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                    nesciunt fuga ab natus, dolorem?</p>
+                                                <p></p>
                                             </div>
                                             <div class="sm-testimonial-bio">
                                                 <p>- David Muller</p>
@@ -40,8 +38,7 @@
                                     <li>
                                         <div class="sm-testimonial-single">
                                             <div class="sm-testimonial-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                    nesciunt fuga ab natus, dolorem?</p>
+                                                <p></p>
                                             </div>
                                             <div class="sm-testimonial-bio">
                                                 <p>- David Muller</p>

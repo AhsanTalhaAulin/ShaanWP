@@ -15,14 +15,14 @@
                                 <div class="sm-about-us-left">
                                     <p>Old Dhaka based Very Authentic Catering Service provides food for any kind of Office program- Picnic, Annual General Meeting and Home program- Wedding, Anniversary, Birthday or any kinds of program. </p>
                                     <ul>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
                                     </ul>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam. Ex.</p>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="col-md-6">

@@ -10,8 +10,8 @@
                     <div class="sm-top-slider-content">
                         <span class="sm-slider-small-title">Welcome</span>
                         <h2 class="sm-slider-title">TO Shaan Mughal Food Service</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
-                        <a href="#" class="sm-readmore-btn">READ MORE</a>
+                        <p></p>
+                        <!-- <a href="#" class="sm-readmore-btn">READ MORE</a> -->
                     </div>
                     <!-- / Top slider content -->
                 </div>
@@ -23,8 +23,8 @@
                     <div class="sm-top-slider-content">
                         <span class="sm-slider-small-title">The Real</span>
                         <h2 class="sm-slider-title">GREEN FOODS</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
-                        <a href="#" class="sm-readmore-btn">READ MORE</a>
+                        <p></p>
+                        <!-- <a href="#" class="sm-readmore-btn">READ MORE</a> -->
                     </div>
                     <!-- / Top slider content -->
                 </div>
@@ -36,8 +36,8 @@
                     <div class="sm-top-slider-content">
                         <span class="sm-slider-small-title">Delicious</span>
                         <h2 class="sm-slider-title">SPICY MASALAS</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
-                        <a href="#" class="sm-readmore-btn">READ MORE</a>
+                        <p></p>
+                        <!-- <a href="#" class="sm-readmore-btn">READ MORE</a> -->
                     </div>
                     <!-- / Top slider content -->
                 </div>
