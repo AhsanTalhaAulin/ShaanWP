@@ -27,11 +27,11 @@
                             <div class="col-md-6">
                                 <div class="sm-about-us-right">
                                     <ul class="sm-abtus-slider">
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-1.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-2.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-6.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-4.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-5.png" alt="img"></li>
+                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery1.jpg" alt="img"></li>
+                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery2.jpg" alt="img"></li>
+                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery3.jpg" alt="img"></li>
+                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery6.jpg" alt="img"></li>
+
                                     
                                     
                                     </ul>
