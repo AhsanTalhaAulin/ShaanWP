@@ -501,6 +501,15 @@ img {
   width: 100%;
 }
 
+#sm-about-us .sm-about-us-area .sm-about-us-right .quotes {
+  display: none;
+}
+
+#sm-about-us .sm-about-us-area .sm-about-us-right .sm-about-us-slider .sm-abtus-sliderimg {
+  width: 525px;
+  height: auto;
+}
+
 .sm-title {
   display: inline;
   float: left;

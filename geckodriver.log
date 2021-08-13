@@ -20058,3 +20058,16 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1628835827778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1628835841958	Marionette	INFO	Stopped listening on port 46771
 JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1628847577190	geckodriver	INFO	Listening on 127.0.0.1:44995
+1628847578206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezuCiMU"
+1628847579475	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezuCiMU/search.json.mozlz4", (void 0)))
+1628847581899	Marionette	INFO	Listening on port 38063
+1628847582013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
+http://requirejs.org/docs/errors.html#scripterror
+1628847596446	Marionette	INFO	Stopped listening on port 38063
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
