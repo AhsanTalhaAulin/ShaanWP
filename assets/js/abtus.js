@@ -1,4 +1,4 @@
-var quotes = $(".quotes");
+var quotes = document.getElementsByClassName("quotes");
 var quoteIndex = -1;
 
 function showNextQuote() {
