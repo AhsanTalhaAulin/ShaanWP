@@ -27,9 +27,6 @@
     <?php include "php/home/services.php"?>
 
 
-    <!-- Start About us -->
-    <!-- <?php include "php/home/about-us.php" ?> -->
-
 
     <!-- Start Counter Section -->
     <?php include "php/home/counter.php" ?>
