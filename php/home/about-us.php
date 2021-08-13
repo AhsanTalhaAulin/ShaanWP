@@ -24,19 +24,19 @@
                                     <p></p>
                                 </div>
                             </div>
-                            <!-- <div class="col-md-6">
+                            <div class="col-md-6">
                                 <div class="sm-about-us-right">
                                     <ul class="sm-abtus-slider">
-                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery1.jpg" alt="img"></li>
-                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery2.jpg" alt="img"></li>
-                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery3.jpg" alt="img"></li>
-                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery6.jpg" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/adf/chicken grill.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/adf/chicken rezala.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/adf/chicken roast.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/menu/adf/cup firni.png" alt="img"></li>
 
                                     
                                     
                                     </ul>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
