@@ -25,7 +25,7 @@
                         <!-- <li><a href="#sm-reservation">RESERVATION</a></li> -->
                         <li><a href="#sm-gallery">GALLERY</a></li>
                         <li><a id="faq-btn" >FAQ</a></li>
-                        <li><a href="#sm-latest-news">BLOG</a></li>
+                        <!-- <li><a href="#sm-latest-news">BLOG</a></li> -->
                         <li><a href="#sm-contact">CONTACT</a></li>
                         <!-- <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">PAGE <span class="caret"></span></a>
