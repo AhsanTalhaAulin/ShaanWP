@@ -22,17 +22,19 @@
     <!-- Start slider  -->
     <?php include "php/home/slider.php" ?>
 
+    
+    <!--Start Services section -->
+    <?php include "php/home/services.php"?>
+
 
     <!-- Start About us -->
-    <?php include "php/home/about-us.php" ?>
+    <!-- <?php include "php/home/about-us.php" ?> -->
 
 
     <!-- Start Counter Section -->
     <?php include "php/home/counter.php" ?>
 
 
-    <!--Start Services section -->
-    <?php include "php/home/services.php"?>
 
 
     <!-- Start Restaurant Menu -->
