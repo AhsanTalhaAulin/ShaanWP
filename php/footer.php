@@ -6,7 +6,7 @@
                 <div class="col-md-12">
                     <div class="sm-footer-area">
                         <div class="sm-footer-social">
-                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="www.facebook.com/Shaanmughalfoodsservice"><span class="fa fa-facebook"></span></a>
                             <!-- <a href="#"><span class="fa fa-twitter"></span></a> -->
                             <!-- <a href="#"><span class="fa fa-google-plus"></span></a> -->
                             <a href="#"><span class="fa fa-instagram"></span></a>
