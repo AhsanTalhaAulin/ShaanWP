@@ -54,39 +54,3 @@
         </div>
     </section>
     <!-- End Client Testimonial section -->
-
-
-    <!-- testimonial slider -->
-    <ul class="sm-testimonial-slider">
-        <li>
-            <div class="sm-testimonial-single">
-                <div class="sm-testimonial-info">
-                    <p></p>
-                </div>
-                <div class="sm-testimonial-bio">
-                    <p>- David Muller</p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="sm-testimonial-single">
-                <div class="sm-testimonial-info">
-                    <p></p>
-                </div>
-                <div class="sm-testimonial-bio">
-                    <p>- David Muller</p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="sm-testimonial-single">
-                <div class="sm-testimonial-info">
-                    <p></p>
-                </div>
-                <div class="sm-testimonial-bio">
-                    <p>- David Muller</p>
-                </div>
-            </div>
-        </li>
-    </ul>
-    </div>

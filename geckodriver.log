@@ -20166,3 +20166,13 @@ JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628853290380	geckodriver	INFO	Listening on 127.0.0.1:39869
+1628853290386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesWra1e"
+*** You are running in headless mode.
+1628853291020	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesWra1e/search.json.mozlz4", (void 0)))
+1628853292548	Marionette	INFO	Listening on port 33641
+1628853292615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1628853306419	Marionette	INFO	Stopped listening on port 33641
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
