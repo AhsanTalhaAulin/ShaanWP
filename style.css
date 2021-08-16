@@ -977,19 +977,6 @@ img {
   z-index: 20;
 }
 
-#sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-info p:before {
-  content: '\f10e';
-  font-family: fontAwesome;
-  font-size: 50px;
-  left: 5%;
-  position: absolute;
-  text-align: end;
-  top: 0%;
-  width: 100%;
-  z-index: -10;
-  color: #f37521;
-}
-
 #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-bio {
   color: #fff;
   float: left;
@@ -1027,6 +1014,21 @@ img {
 
 #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider .slick-dots li button {
   display: none;
+}
+
+@media (min-width: 992px) {
+  #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-info p::before {
+    content: '\f10e';
+    font-family: fontAwesome;
+    font-size: 50px;
+    left: 5%;
+    position: absolute;
+    text-align: end;
+    top: 0%;
+    width: 100%;
+    z-index: -10;
+    color: #f37521;
+  }
 }
 
 /*==================

@@ -53,19 +53,7 @@
                                 padding: 0;
                                 position: relative;
                                 z-index: 20;
-                                &:before {
-                                    content: '\f10e';
-                                    font-family: fontAwesome;
-                                    font-size: 50px;
-                                    left: 5%;
-                                    position: absolute;
-                                    text-align: end;
-                                    top: 0%;
-                                    // opacity: 0.6;
-                                    width: 100%;
-                                    z-index: -10;
-                                    color: $theme-color;
-                                }
+
                             }
                         }
                         .sm-testimonial-bio {
@@ -107,4 +95,23 @@
             }
         }
     }
+}
+
+@media (min-width: 992px) {
+
+    #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-info p::before {
+        content: '\f10e';
+        font-family: fontAwesome;
+        font-size: 50px;
+        left: 5%;
+        position: absolute;
+        text-align: end;
+        top: 0%;
+        width: 100%;
+        z-index: -10;
+        color: #f37521;
+    }
+
+
+
 }
