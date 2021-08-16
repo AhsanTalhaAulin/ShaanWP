@@ -2520,6 +2520,9 @@ p::before {
   #sm-blog .sm-blog-area .sm-blog-sidebar .sm-blog-sidebar-single .sm-sidebar-add img {
     width: 100%;
   }
+  #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-info p::before {
+    display: none;
+  }
 }
 
 @media (max-width: 640px) {

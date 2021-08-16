@@ -20176,3 +20176,22 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1628853292615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1628853306419	Marionette	INFO	Stopped listening on port 33641
 JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629100560583	geckodriver	INFO	Listening on 127.0.0.1:46091
+1629100561592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezL2pDw"
+*** You are running in headless mode.
+1629100562362	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezL2pDw/search.json.mozlz4", (void 0)))
+1629100564409	Marionette	INFO	Listening on port 42555
+1629100564521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1573066380/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: locale
+http://requirejs.org/docs/errors.html#scripterror
+1629100579134	Marionette	INFO	Stopped listening on port 42555
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
