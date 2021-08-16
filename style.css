@@ -760,7 +760,7 @@ img {
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu .active a,
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu .active a:hover,
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu .active a:focus {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area {
@@ -796,6 +796,12 @@ img {
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li:last-child {
   border-bottom: none;
   margin-bottom: 0;
+}
+
+#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media {
+  -webkit-box-shadow: 0px 0px 20px 10px #d0cdcd;
+          box-shadow: 0px 0px 20px 10px #d0cdcd;
+  border-radius: 10px;
 }
 
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-left {
