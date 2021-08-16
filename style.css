@@ -1423,6 +1423,12 @@ img {
   min-width: 130px;
 }
 
+@media (max-width: 991px) {
+  #sm-contact .sm-contact-area .sm-contact-content .sm-contact-right .sm-contact-widget {
+    text-align: center;
+  }
+}
+
 /*==================
  MAP SECTION
 ====================*/
@@ -2483,9 +2489,6 @@ p::before {
   #sm-error .sm-error-area {
     margin-top: 0;
     padding: 50px 100px 80px;
-  }
-  .sm-contact-widget {
-    text-align: center;
   }
 }
 
