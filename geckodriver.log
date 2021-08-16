@@ -20277,3 +20277,13 @@ console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resour
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1629115215476	Marionette	INFO	Stopped listening on port 39253
 JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629116763038	geckodriver	INFO	Listening on 127.0.0.1:53747
+1629116764051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2kab1D"
+*** You are running in headless mode.
+1629116764694	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2kab1D/search.json.mozlz4", (void 0)))
+1629116766071	Marionette	INFO	Listening on port 33701
+1629116766179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629116779714	Marionette	INFO	Stopped listening on port 33701
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
