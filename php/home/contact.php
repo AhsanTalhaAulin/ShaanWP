@@ -12,14 +12,14 @@
                         </div>
                         <div class="sm-contact-content">
                             <div class="row">
-                                <div class="col-md-6">
+                                <!-- <div class="col-md-6">
                                     <?php  echo get_post_field('post_content', 177);?>
-                                </div>
-                                <div class="col-md-6">
+                                </div> -->
+                                <div class="col-md-12">
                                     <div class="sm-contact-right">
                                         <div class="sm-contact-widget">
                                             <h3>Office Address</h3>
-                                            <p>You can contact us in our office in Dhanmondi, the address is stated below. We have separate kitchen facitilities. You're welcome to visit.</p>
+                                            <p>You can contact us in our office in Dhanmondi, the address is stated below. Also, We have separate kitchen facitilities. You're welcome to visit.</p>
                                             <address>
                                                 <p><i class="fa fa-phone"></i> <a callto:"+8801733-110670">01733-110670</a></p>
                                                 <p><i class="fa fa-envelope-o"></i>shaanmughalfoods@gmail.com</p>
