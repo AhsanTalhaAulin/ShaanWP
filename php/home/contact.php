@@ -19,7 +19,8 @@
                                     <div class="sm-contact-right">
                                         <div class="sm-contact-widget">
                                             <h3>Office Address</h3>
-                                            <p>You can contact us in our office in Dhanmondi, the address is stated below. Also, We have separate kitchen facitilities. You're welcome to visit.</p>
+                                            <p>You can contact us in our office in Dhanmondi, the address is stated below.</p> 
+                                            <p>Also, We have separate kitchen facitilities. You're welcome to visit.</p>
                                             <address>
                                                 <p><i class="fa fa-phone"></i> <a callto:"+8801733-110670">01733-110670</a></p>
                                                 <p><i class="fa fa-envelope-o"></i>shaanmughalfoods@gmail.com</p>

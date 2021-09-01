@@ -822,7 +822,7 @@ img {
 
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-body .media-heading {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-body .media-heading a {
