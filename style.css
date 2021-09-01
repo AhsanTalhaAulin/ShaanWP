@@ -2432,6 +2432,9 @@ img {
 }
 
 @media (max-width: 991px) {
+  #sm-services .service-area .content .sm-tab-content-area .sm-tab-content-right {
+    padding-left: 0px;
+  }
   .sm-main-navbar .sm-main-nav li a {
     padding-left: 5px;
     padding-right: 5px;
