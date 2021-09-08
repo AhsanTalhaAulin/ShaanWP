@@ -860,11 +860,6 @@ img {
   font-size: 14px;
 }
 
-#sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media:hover .media-left a img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
 /*==================
  GALLERY SECTION
 ====================*/
