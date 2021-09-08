@@ -719,16 +719,16 @@ img {
 }
 
 @media only screen and (min-width: 992px) {
-  .sm-tab-content-left {
+  #sm-services .sm-tab-content-left {
     padding-right: 15px;
   }
-  .media {
+  #sm-services .media {
     height: 275px;
   }
-  .media .media-left {
+  #sm-services .media .media-left {
     height: 275px;
   }
-  .media .media-body {
+  #sm-services .media .media-body {
     padding: 10px;
   }
 }

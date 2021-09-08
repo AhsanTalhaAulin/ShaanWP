@@ -71,19 +71,19 @@
     }
 }
 
-
-@media only screen and (min-width : 992px) {
-    .sm-tab-content-left {
-        padding-right: 15px;
-    }
-    .media {
-        height: 275px;
-        .media-left{
+@media only screen and (min-width: 992px) {
+    #sm-services {
+        .sm-tab-content-left {
+            padding-right: 15px;
+        }
+        .media {
             height: 275px;
+            .media-left {
+                height: 275px;
+            }
+            .media-body {
+                padding: 10px;
+            }
         }
-        .media-body{
-            padding: 10px;
-        }
-        
     }
-  }
+}
