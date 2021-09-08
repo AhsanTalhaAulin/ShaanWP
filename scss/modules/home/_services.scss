@@ -72,7 +72,7 @@
 }
 
 
-@media #{$media-desktop} {
+@media only screen and (min-width : 992px) {
     .sm-tab-content-left {
         padding-right: 15px;
     }
