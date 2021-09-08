@@ -10,7 +10,6 @@
                 .sm-tab-content-left {
                     display: inline;
                     float: left;
-                    padding-right: 15px;
                     width: 100%;
                 }
                 .sm-tab-content-right {
@@ -34,9 +33,10 @@
                         .media {
                             box-shadow: 0px 0px 20px 10px #d0cdcd;
                             border-radius: 10px;
+                            height: 275px;
                             .media-left {
                                 width: 110px;
-                                height: 110px;
+                                background-color: black;
                                 a {
                                     img {
                                         width: 110px;
@@ -70,3 +70,20 @@
         }
     }
 }
+
+
+@media #{$media-desktop} {
+    .sm-tab-content-left {
+        padding-right: 15px;
+    }
+    .media {
+        height: 275px;
+        .media-left{
+            height: 275px;
+        }
+        .media-body{
+            padding: 10px;
+        }
+        
+    }
+  }

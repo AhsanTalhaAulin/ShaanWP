@@ -20390,3 +20390,17 @@ JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614
 http://requirejs.org/docs/errors.html#scripterror
 1630479384106	Marionette	INFO	Stopped listening on port 39523
 JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630480853581	geckodriver	INFO	Listening on 127.0.0.1:37079
+1630480854595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemV3qrD"
+*** You are running in headless mode.
+1630480855404	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemV3qrD/search.json.mozlz4", (void 0)))
+1630480857201	Marionette	INFO	Listening on port 34903
+1630480857402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614623111/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: locale
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614623111/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
+http://requirejs.org/docs/errors.html#scripterror
+1630480871878	Marionette	INFO	Stopped listening on port 34903
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
