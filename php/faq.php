@@ -36,24 +36,6 @@
             <p>Yes, we do have home (/office) delivery service.  And, The charge is at actual basis of any CNG or any other vehicle. We don’t have any extra charges. </p>
         </div>
 
-        
-        <button type="button" class="collapsible">Open Section 3</button>
-        <div class="content">
-            <p>trhtr</p>
-        </div>    
-        
-        
-        
-        
-        
-        
-        
-        
-        <button type="button" class="collapsible">Open Section 3</button>
-        <div class="content">
-            <p>trhtr</p>
-        </div>
-
 
     </div>
 
