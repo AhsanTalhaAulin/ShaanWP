@@ -20,12 +20,12 @@
                                                 <li>
                                                     <div class="media">
                                                         <div class="media-left">
-                                                            <a href="#">
+                                                            
                                                                 <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/default.jpg" alt="img">
-                                                            </a>
+                                                            
                                                         </div>
                                                         <div class="media-body">
-                                                            <h4 class="media-heading"><a href="#">Private Catering</a></h4>
+                                                            <h4 class="media-heading">Private Catering</h4>
 
                                                             <p>Dawats, Birthdays, Anniversaries, Rooftop Parties, Outdoor Sports, Picnics, Bridal Showers, Baby Showers, Milad, Iftar and ShehriParties.</p>
                                                         </div>
@@ -34,12 +34,12 @@
                                                 <li>
                                                     <div class="media">
                                                         <div class="media-left">
-                                                            <a href="#">
+                                                            
                                                                 <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/default.jpg" alt="img">
-                                                            </a>
+                                                            
                                                         </div>
                                                         <div class="media-body">
-                                                            <h4 class="media-heading"><a href="#">Corporate Catering </a></h4>
+                                                            <h4 class="media-heading">Corporate Catering </h4>
 
                                                             <p>Office Parties, Training Programs & Workshops, Meetings & Seminars, Sales Conferences, AGMs, Board Meetings, Town Hall Meetings, Company Celebrations, Customer Nights, Product Launch, Roadshows, University Club Events, University Competitions, University Events, Convocations etc</p>
                                                         </div>
@@ -48,12 +48,12 @@
                                                 <li>
                                                     <div class="media">
                                                         <div class="media-left">
-                                                            <a href="#">
+                                                            
                                                                 <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/default.jpg" alt="img">
-                                                            </a>
+                                                            
                                                         </div>
                                                         <div class="media-body">
-                                                            <h4 class="media-heading"><a href="#">Wedding- Engagement</a></h4>
+                                                            <h4 class="media-heading">Wedding- Engagement</h4>
                                                             <p>Akhth, Aiburo Bhat, Sangeet, Gaye Holud, Wedding, Reception, Post-Marriage Parties, Anniversary etc.</p>
                                                         </div>
                                                     </div>
@@ -67,12 +67,12 @@
                                                 <li>
                                                     <div class="media">
                                                         <div class="media-left">
-                                                            <a href="#">
+                                                            
                                                                 <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/default.jpg" alt="img">
-                                                            </a>
+                                                            
                                                         </div>
                                                         <div class="media-body">
-                                                            <h4 class="media-heading"><a href="#">Tour Operator</a></h4>
+                                                            <h4 class="media-heading">Tour Operator</h4>
                                                             <p>Both as local and foreign tour operator, we are determined to provide a unique and satisfying travel experience.</p>
                                                             <div class="Click-here">Learn More</div>    
                                                         </div>
@@ -95,12 +95,12 @@
                                                 <li>
                                                     <div class="media">
                                                         <div class="media-left">
-                                                            <a href="#">
+                                                            
                                                                 <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/default.jpg" alt="img">
-                                                            </a>
+                                                            
                                                         </div>
                                                         <div class="media-body">
-                                                            <h4 class="media-heading"><a href="#">Photography</a></h4>
+                                                            <h4 class="media-heading">Photography</h4>
                                                             <p>Our expert photographer provides photography to all kinds of Program like - Birthdays, Anniversaries, Picnics, Office Parties, Training Programs & Workshops, Company Celebrations, Customer Nights, Gaye Holud, Wedding, Reception, Post-Marriage Parties, Anniversary etc.</p>
                                                         </div>
                                                     </div>
@@ -108,12 +108,12 @@
                                                 <li>
                                                     <div class="media">
                                                         <div class="media-left">
-                                                            <a href="#">
+                                                            
                                                                 <img class="media-object" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/default.jpg" alt="img">
-                                                            </a>
+                                                            
                                                         </div>
                                                         <div class="media-body">
-                                                            <h4 class="media-heading"><a href="#">Event Management</a></h4>
+                                                            <h4 class="media-heading">Event Management</h4>
                                                             <p>Coming Soon...</p>
                                                         </div>
                                                     </div>
@@ -142,12 +142,6 @@
 
 
 </section>
-<script>
-$(".Click-here").on('click', function() {
-  $(".custom-model-main").addClass('model-open');
-}); 
-$(".close-btn, .bg-overlay").click(function(){
-  $(".custom-model-main").removeClass('model-open');
-});
 
-</script>
+
+
