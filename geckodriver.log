@@ -20498,3 +20498,13 @@ JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614
 http://requirejs.org/docs/errors.html#scripterror
 1631265202675	Marionette	INFO	Stopped listening on port 38213
 JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631266168788	geckodriver	INFO	Listening on 127.0.0.1:37791
+1631266168793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileHXHaOj"
+*** You are running in headless mode.
+1631266169400	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHXHaOj/search.json.mozlz4", (void 0)))
+1631266170853	Marionette	INFO	Listening on port 33289
+1631266170920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631266184062	Marionette	INFO	Stopped listening on port 33289
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]

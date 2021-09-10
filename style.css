@@ -888,12 +888,12 @@ img {
   display: block;
   overflow: hidden;
   margin: 10px;
-  -webkit-box-shadow: 0px 0px 20px 10px #d0cdcd;
-          box-shadow: 0px 0px 20px 10px #d0cdcd;
+  -webkit-box-shadow: 0px 0px 5px 2px #d0cdcd;
+          box-shadow: 0px 0px 5px 2px #d0cdcd;
 }
 
 #sm-gallery .sm-gallery-area .sm-gallery-content div.gallery .imagesection {
-  max-height: 200px;
+  max-height: 166px;
   overflow: hidden;
 }
 
