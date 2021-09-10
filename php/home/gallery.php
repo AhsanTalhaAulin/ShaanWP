@@ -14,9 +14,8 @@
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery1.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery1.jpg"> 
-                                    </a>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery1.jpg"> 
+                                    
                                     <div class="desc">Rice</div>
                                 </div>
                             </div>
@@ -24,66 +23,61 @@
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery2.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery2.jpg"> 
-                                    </a>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery2.jpg"> 
+                                    
                                     <div class="desc">Mutton Rezala</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery3.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery3.jpg"> 
-                                    </a>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery3.jpg"> 
+                                    
                                     <div class="desc">Chicken Rezala</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery4.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery4.jpg"> 
-                                    </a>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery4.jpg"> 
+                                    
                                     <div class="desc">Salaad</div>
                                 </div>
                             </div>
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery5.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery5.jpg"> 
-                                    </a>
-                                    <div class="desc">Tikka kabab</div>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery5.jpg"> 
+                                    
+                                    <div class="desc">Prawn Stick Masala</div>
                                 </div>
                             </div>
 
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery6.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery6.jpg"> 
-                                    </a>
-                                    <div class="desc">Borhani</div>
-                                </div>
-                            </div>
-
-                            <!-- <div class="responsive">
-                                <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery7.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery7.jpg"> 
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery6.jpg"> 
+                                    
+                                    <div class="desc">Beef Rezala</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <a target="_blank" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery8.jpg">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery8.jpg"> 
-                                    </a>
-                                    <div class="desc">Add a description of the image here</div>
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery7.jpg"> 
+                                    
+                                    <div class="desc">Firni</div>
                                 </div>
-                            </div> -->
+                            </div>
+
+                            <div class="responsive">
+                                <div class="gallery">
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery8.jpg"> 
+                                    
+                                    <div class="desc">Vegetable</div>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
