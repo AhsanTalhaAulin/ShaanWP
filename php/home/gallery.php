@@ -14,8 +14,10 @@
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery1.jpg"> 
-                                    
+
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery1.jpg">
+                                    </div>
                                     <div class="desc">Rice</div>
                                 </div>
                             </div>
@@ -23,31 +25,35 @@
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery2.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery2.jpg">
+                                    </div>
                                     <div class="desc">Mutton Rezala</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery3.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery3.jpg">
+                                    </div>
                                     <div class="desc">Chicken Rezala</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery4.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery4.jpg">
+                                    </div>
                                     <div class="desc">Salaad</div>
                                 </div>
                             </div>
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery5.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery5.jpg">
+                                    </div>
                                     <div class="desc">Prawn Stick Masala</div>
                                 </div>
                             </div>
@@ -55,24 +61,27 @@
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery6.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery6.jpg">
+                                    </div>
                                     <div class="desc">Beef Rezala</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery7.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery7.jpg">
+                                    </div>
                                     <div class="desc">Firni</div>
                                 </div>
                             </div>
 
                             <div class="responsive">
                                 <div class="gallery">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gallery/small/sm-gallery8.jpg"> 
-                                    
+                                    <div class="imagesection">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gallery/small/sm-gallery8.jpg">
+                                    </div>
                                     <div class="desc">Vegetable</div>
                                 </div>
                             </div>
