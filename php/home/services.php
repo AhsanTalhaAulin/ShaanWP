@@ -73,10 +73,22 @@
                                                         </div>
                                                         <div class="media-body">
                                                             <h4 class="media-heading"><a href="#">Tour Operator</a></h4>
-                                                            <p>Both as local and foreign tour operator, we are determined to provide a unique and satisfying travel experience.
-                                                                Our services includes- Sundarban Tour, Kuakata, Cox’s Bazar, Saintmartin, Sajek, Bandarban, Nilgiri- in Bangladesh. As a foreign Tour, we have experience in – India, Nepal and Saudi-Arabia tour.
-                                                                Our high qualified services, comfortable tour planning, guides with profound knowledge of local information and the affordable price will make your trip enjoyable and special.
-                                                                If you want to explore Bangladesh completely rich, we are here with experiences to make it memorable.</p>
+                                                            <p>Both as local and foreign tour operator, we are determined to provide a unique and satisfying travel experience.</p>
+                                                            <div class="Click-here">Learn More</div>    
+                                                        </div>
+                                                        <div class="custom-model-main">
+                                                            <div class="custom-model-inner">
+                                                                <div class="close-btn">×</div>
+                                                                <div class="custom-model-wrap">
+                                                                    <div class="pop-up-content-wrap">
+                                                                        Both as local and foreign tour operator, we are determined to provide a unique and satisfying travel experience.
+                                                                        Our services includes- Sundarban Tour, Kuakata, Cox’s Bazar, Saintmartin, Sajek, Bandarban, Nilgiri- in Bangladesh. As a foreign Tour, we have experience in – India, Nepal and Saudi-Arabia tour.
+                                                                        Our high qualified services, comfortable tour planning, guides with profound knowledge of local information and the affordable price will make your trip enjoyable and special.
+                                                                        If you want to explore Bangladesh completely rich, we are here with experiences to make it memorable.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bg-overlay"></div>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -130,3 +142,12 @@
 
 
 </section>
+<script>
+$(".Click-here").on('click', function() {
+  $(".custom-model-main").addClass('model-open');
+}); 
+$(".close-btn, .bg-overlay").click(function(){
+  $(".custom-model-main").removeClass('model-open');
+});
+
+</script>
