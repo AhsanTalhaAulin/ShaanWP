@@ -683,7 +683,6 @@ img {
   -webkit-box-shadow: 0px 0px 5px 2px #d0cdcd;
           box-shadow: 0px 0px 5px 2px #d0cdcd;
   border-radius: 10px;
-  height: 275px;
 }
 
 #sm-services .service-area .content .sm-tab-content-area .sm-menu-item-nav li .media .media-left {
@@ -819,12 +818,6 @@ img {
 @media only screen and (min-width: 992px) {
   #sm-services .sm-tab-content-left {
     padding-right: 15px;
-  }
-  #sm-services .media {
-    height: 275px;
-  }
-  #sm-services .media .media-left {
-    height: 275px;
   }
   #sm-services .media .media-body {
     padding: 10px;
