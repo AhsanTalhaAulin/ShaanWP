@@ -20588,3 +20588,13 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1631270898666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1631270912045	Marionette	INFO	Stopped listening on port 41029
 JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631271441226	geckodriver	INFO	Listening on 127.0.0.1:44841
+1631271441231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileAhLSnJ"
+*** You are running in headless mode.
+1631271441824	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAhLSnJ/search.json.mozlz4", (void 0)))
+1631271443565	Marionette	INFO	Listening on port 45497
+1631271443656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631271461346	Marionette	INFO	Stopped listening on port 45497
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]

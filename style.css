@@ -695,6 +695,10 @@ img {
   height: 110px;
 }
 
+#sm-services .service-area .content .sm-tab-content-area .sm-menu-item-nav li .media .media-body {
+  padding: 10px;
+}
+
 #sm-services .service-area .content .sm-tab-content-area .sm-menu-item-nav li .media .media-body .media-heading {
   font-size: 20px;
   margin-bottom: 10px;
@@ -818,9 +822,6 @@ img {
 @media only screen and (min-width: 992px) {
   #sm-services .sm-tab-content-left {
     padding-right: 15px;
-  }
-  #sm-services .media .media-body {
-    padding: 10px;
   }
 }
 
