@@ -24,7 +24,7 @@
     <!-- Main style sheet -->
     <!--<link href="get_template_directory_uri()./style.css" rel="stylesheet">-->
 
-<link href="<?php echo esc_url( get_template_directory_uri() ); ?>/style.css" rel="stylesheet" />
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/style.css" rel="stylesheet" />
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
@@ -39,4 +39,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- google adsense -->
+    <script data-ad-client="ca-pub-8150817687606301" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
 </head>
