@@ -60,4 +60,7 @@
       'transaction_id': ''
     });
   </script>
+
+<!-- Creator Studio -->
+<meta property="fb:pages" content="107468647781170" />
 </head>
