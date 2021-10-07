@@ -11,7 +11,7 @@
 
 
     <!-- Messenger -->
-    <?php //include "php/messenger.php" ?>
+    <?php include "php/messenger.php" ?>
 
 
     <!-- Start header section -->
@@ -22,17 +22,16 @@
     <!-- Start slider  -->
     <?php include "php/home/slider.php" ?>
 
+    
+    <!--Start Services section -->
+    <?php include "php/home/services.php"?>
 
-    <!-- Start About us -->
-    <?php include "php/home/about-us.php" ?>
 
 
     <!-- Start Counter Section -->
     <?php include "php/home/counter.php" ?>
 
 
-    <!--Start Services section -->
-    <?php include "php/home/services.php"?>
 
 
     <!-- Start Restaurant Menu -->
@@ -54,11 +53,11 @@
 
 
     <!-- Start Chef Section -->
-    <?php include "php/home/clients.php" ?>
+    <?php // include "php/home/clients.php" ?>
 
 
     <!-- Start Latest News -->
-    <?php include "php/home/latest-news.php" ?>
+    <?php // include "php/home/latest-news.php" ?>
 
 
     <!-- Start Contact section -->

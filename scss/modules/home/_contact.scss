@@ -76,6 +76,11 @@
                         }
                     }
                 }
+                @media (max-width: 991px) {
+                    .sm-contact-widget{
+                        text-align: center;
+                    }
+                }
             }
         }
     }

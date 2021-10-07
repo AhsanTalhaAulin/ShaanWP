@@ -16,7 +16,7 @@
                                 <!-- start single blog -->
                                 <div class="col-md-6">
                                     <article class="sm-news-single">
-                                        <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</a></h3>
+                                        <h3><a href="#"></a></h3>
                                         <figure class="sm-news-img">
                                             <a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/news/1.jpg" alt="img"></a>
                                         </figure>
@@ -25,7 +25,7 @@
                                                 <li>By Admin</li>
                                                 <li>Date: May 10 2016</li>
                                             </ul>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio est quaerat magnam exercitationem voluptas, voluptatem sed quam ab laborum voluptatum tempore dolores itaque, molestias vitae.</p>
+                                            <p></p>
                                             <div class="sm-news-single-bottom">
                                                 <a href="blog-single.html" class="sm-readmore-btn">Read More</a>
                                             </div>
@@ -35,7 +35,7 @@
                                 <!-- start single blog -->
                                 <div class="col-md-6">
                                     <article class="sm-news-single">
-                                        <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</a></h3>
+                                        <h3><a href="#"></a></h3>
                                         <figure class="sm-news-img">
                                             <a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/news/2.jpg" alt="img"></a>
                                         </figure>
@@ -44,7 +44,7 @@
                                                 <li>By Admin</li>
                                                 <li>Date: May 10 2016</li>
                                             </ul>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio est quaerat magnam exercitationem voluptas, voluptatem sed quam ab laborum voluptatum tempore dolores itaque, molestias vitae.</p>
+                                            <p> Optio est quaerat magnam exercitationem voluptas, voluptatem sed quam ab laborum voluptatum tempore dolores itaque, molestias vitae.</p>
                                             <div class="sm-news-single-bottom">
                                                 <a href="blog-single.html" class="sm-readmore-btn">Read More</a>
                                             </div>
@@ -52,9 +52,9 @@
                                     </article>
                                 </div>
                             </div>
-                            <!-- Start brows more btn -->
-                            <a href="blog-archive.html" class="sm-browsmore-btn">BROWS MORE</a>
-                            <!-- End brows more btn -->
+                            <!-- Start browse more btn -->
+                            <a href="blog-archive.html" class="sm-browsmore-btn">BROWSE MORE</a>
+                            <!-- End browse more btn -->
                         </div>
                     </div>
                 </div>

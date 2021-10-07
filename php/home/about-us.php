@@ -13,29 +13,39 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="sm-about-us-left">
-                                    <p>Old Dhaka based Very Authentic Catering Service provides food for any kind of Office program- Picnic, Annual General Meeting and Home program- Wedding, Anniversary, Birthday or any kinds of program. </p>
+                                    <p>Old Dhaka based Very Authentic Catering Service provides food for any kind of Office or Home program </p>
                                     <ul>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                                        <li>Picnic,</li>
+                                        <li>Wedding</li>
+                                        <li>Anniversary</li>
+                                        <li>Birthday</li>
+                                        <li>Annual General Meeting </li>
                                     </ul>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam. Ex.</p>
+                                    <p></p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <div class="sm-about-us-right">
                                     <ul class="sm-abtus-slider">
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-1.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-2.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-6.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-4.png" alt="img"></li>
-                                        <li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/about-us/abtus-img-5.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/adf/chicken grill.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/adf/chicken rezala.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/adf/chicken roast.png" alt="img"></li>
+                                        <li class="sm-abtus-sliderimg"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/menu/adf/cup firni.png" alt="img"></li>
+
                                     
                                     
                                     </ul>
+                                </div>
+                            </div> -->
+
+                            <div class="col-md-6">
+                                <div class="sm-about-us-right">
+                                    <h2 class="quotes">first quote</h2>
+                                    <h2 class="quotes">second quote</h2>
+                                    <h2 class="quotes">3rd quote</h2>
+                                    <h2 class="quotes">4th quote</h2>
+                                    <h2 class="quotes">5th quote</h2>
+                                    <h2 class="quotes">6th quote</h2>
                                 </div>
                             </div>
                         </div>
@@ -44,4 +54,7 @@
             </div>
         </div>
     </section>
+
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/abtus.js"></script>
+
     <!-- End About us -->

@@ -9,3 +9,8 @@ cursive;
 $font-bold:700;
 $theme-color:#f37521;
 $secondary-color:#F7931D;
+
+$media-desktop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-mobile: "only screen and (max-width : 600px)";
+$media-mobile-sm: "only screen and (max-width : 480px)";
