@@ -20669,3 +20669,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1633599767756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614623111/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
 http://requirejs.org/docs/errors.html#scripterror
+1633599906249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBbF744"
+1633599907157	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBbF744/search.json.mozlz4", (void 0)))
+1633599908740	Marionette	INFO	Listening on port 39879
+1633599908784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
