@@ -20,7 +20,10 @@
 
 
     <!-- Start slider  -->
-    <?php include "php/home/slider.php" ?>
+    <?php if(window.screen.width>767){
+        include "php/home/slider.php" 
+    }
+    ?>
 
     
     <!--Start Services section -->
