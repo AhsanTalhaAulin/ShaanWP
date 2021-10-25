@@ -20,7 +20,7 @@
 
 
     <script>
-        if (window.screen.width > 767) {
+        if (window.innerWidth > 767) {
             <?php include "php/home/slider.php"; ?>
         }
     </script>

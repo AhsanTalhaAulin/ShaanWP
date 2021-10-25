@@ -20783,3 +20783,16 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1635168778758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1635168791073	Marionette	INFO	Stopped listening on port 33559
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635169087114	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea7n5dg"
+*** You are running in headless mode.
+1635169087694	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea7n5dg/search.json.mozlz4", (void 0)))
+1635169088953	Marionette	INFO	Listening on port 40031
+1635169089070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614623111/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: app/index.dist
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://whm.harriswebworks.com:2083/cPanel_magic_revision_1614623111/frontend/paper_lantern/libraries/requirejs/optimized/require.min.js, line 8: Error: Script error for: locale
+http://requirejs.org/docs/errors.html#scripterror
+1635169101672	Marionette	INFO	Stopped listening on port 40031
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
