@@ -19,11 +19,10 @@
 
 
 
-    <script>
-        if (window.innerWidth > 767) {
-            <?php include "php/home/slider.php"; ?>
-        }
-    </script>
+
+    <?php include "php/home/slider.php"; ?>
+
+
 
 
 
