@@ -19,15 +19,17 @@
 
 
 
-    <!-- Start slider  -->
-    <?php if(window.screen.width>767){
-        include "php/home/slider.php" 
-    }
-    ?>
+    <script>
+        if (window.screen.width > 767) {
+            <?php include "php/home/slider.php"; ?>
+        }
+    </script>
 
-    
+
+
+
     <!--Start Services section -->
-    <?php include "php/home/services.php"?>
+    <?php include "php/home/services.php" ?>
 
 
 
@@ -49,18 +51,21 @@
 
     <!-- Start Client Testimonial section -->
     <?php include "php/home/testimonial.php" ?>
-    <?php //include "php/home/testimonial_copy.php" ?>
+    <?php //include "php/home/testimonial_copy.php" 
+    ?>
 
 
 
 
 
     <!-- Start Chef Section -->
-    <?php // include "php/home/clients.php" ?>
+    <?php // include "php/home/clients.php" 
+    ?>
 
 
     <!-- Start Latest News -->
-    <?php // include "php/home/latest-news.php" ?>
+    <?php // include "php/home/latest-news.php" 
+    ?>
 
 
     <!-- Start Contact section -->
@@ -76,23 +81,23 @@
 
 
     <!-- jQuery library -->
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery.min.js"></script>
+    <script src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/bootstrap.js"></script>
+    <script src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/bootstrap.js"></script>
     <!-- Slick slider -->
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/slick.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/slick.js"></script>
     <!-- Counter -->
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/waypoints.js"></script>
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/waypoints.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/jquery.counterup.js"></script>
     <!-- Date Picker -->
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/bootstrap-datepicker.js"></script>
     <!-- Mixit slider -->
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery.mixitup.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/jquery.mixitup.js"></script>
     <!-- Add fancyBox -->
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/jquery.fancybox.pack.js"></script>
 
     <!-- Custom js -->
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/custom.js"></script>
+    <script src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/js/custom.js"></script>
 
 </body>
 

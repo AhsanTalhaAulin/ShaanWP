@@ -20776,3 +20776,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1635168401071	Marionette	INFO	Stopped listening on port 41035
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1635168776213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9QyVFh"
+1635168777198	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9QyVFh/search.json.mozlz4", (void 0)))
+1635168778713	Marionette	INFO	Listening on port 33559
+1635168778758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635168791073	Marionette	INFO	Stopped listening on port 33559
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
