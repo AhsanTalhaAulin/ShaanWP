@@ -16,7 +16,7 @@
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
 
-if (window.innerWidth > 767) {
+
     (function (factory) {
         'use strict';
         if (typeof define === 'function' && define.amd) {
@@ -2670,4 +2670,3 @@ if (window.innerWidth > 767) {
         };
 
     }));
-}
