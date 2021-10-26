@@ -101,8 +101,6 @@ catering service in dhaka
   <link id="switcher" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/theme-color/default-theme.css" rel="stylesheet">
 
   <!-- Main style sheet -->
-  <!--<link href="get_template_directory_uri()./style.css" rel="stylesheet">-->
-
   <link href="<?php echo esc_url(get_template_directory_uri()); ?>/style.css" rel="stylesheet" />
 
   <!-- Google Fonts -->
