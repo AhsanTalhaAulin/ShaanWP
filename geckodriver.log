@@ -20924,3 +20924,18 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1635232714213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1635232731871	Marionette	INFO	Stopped listening on port 46551
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635232943588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0rpfmc"
+*** You are running in headless mode.
+1635232944174	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0rpfmc/search.json.mozlz4", (void 0)))
+1635232946019	Marionette	INFO	Listening on port 41753
+1635232946119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635232973528	Marionette	INFO	Stopped listening on port 41753
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
