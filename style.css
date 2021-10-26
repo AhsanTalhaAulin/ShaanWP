@@ -121,6 +121,10 @@ img {
   z-index: 999;
 }
 
+#sm-header #navbar {
+  border: 0px;
+}
+
 #faq-btn {
   cursor: pointer;
 }

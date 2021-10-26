@@ -5,6 +5,10 @@
     top: 0;
     position: fixed;
     z-index: 999;
+
+    #navbar{
+        border: 0px;
+    }
 }
 
 @import '../modules/faq';
