@@ -121,7 +121,8 @@
                 .media-body{
                     h4{
                         &:before{
-                            content: url("assets/img/menu/default.png");
+                            content:'';
+                            background:  url("assets/img/menu/default.png");
                             
                             
                         }
