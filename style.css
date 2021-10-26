@@ -837,7 +837,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   #sm-services .service-area .content .sm-tab-content-area .sm-menu-item-nav li .media .media-left {
     display: none;
   }
