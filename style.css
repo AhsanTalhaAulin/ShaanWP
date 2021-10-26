@@ -965,14 +965,16 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-  .sm-menu-item-nav li .media .media-left {
+  .sm-menu-item-navli .media .media-left {
     display: none;
   }
-  .sm-menu-item-nav li .media .media-body .meadia-heading {
-    padding-left: 40px;
+  .sm-menu-item-navli .media .media-body .media-heading {
     margin-bottom: 25px;
   }
-  .sm-menu-item-nav li .media .media-body .meadia-heading:before {
+  .sm-menu-item-navli .media .media-body h4 {
+    padding-left: 40px;
+  }
+  .sm-menu-item-navli .media .media-body h4:before {
     content: "";
     background-image: url(assets/img/menu/default.png);
     width: 40px;

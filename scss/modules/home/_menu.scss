@@ -113,7 +113,7 @@
 @media only screen and (max-width: 767px) {
 
     .sm-menu-item-nav{
-        li{
+        &li{
             .media{
                 .media-left{
                     display: none;
@@ -122,7 +122,7 @@
                     .media-heading{
                         margin-bottom: 25px;
                     }
-                    }
+                    
                     h4{
                         padding-left: 40px;
                         
