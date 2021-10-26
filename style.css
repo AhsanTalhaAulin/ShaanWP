@@ -845,7 +845,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   #sm-services {
-    padding: 50px 0 0 0;
+    padding: 100px 0 0 0;
   }
   #sm-services .service-area .content .sm-tab-content-area .sm-menu-item-nav li .media .media-left {
     display: none;
