@@ -18,7 +18,7 @@
                 <!-- / Top slider single slide -->
                 <!-- Top slider single slide -->
                 <div class="sm-top-slider-single">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/slider/2.jpg" alt="img">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/slider/2.webp" alt="img">
                     <!-- Top slider content -->
                     <div class="sm-top-slider-content">
                         <span class="sm-slider-small-title">Celebrate the taste of</span>
