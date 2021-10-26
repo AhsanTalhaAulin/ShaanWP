@@ -92,7 +92,7 @@ catering service in dhaka
   <!-- Slick slider -->
   <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/slick.css">
   <!-- Date Picker -->
-  <!-- <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/bootstrap-datepicker.css"> -->
+  <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/bootstrap-datepicker.css">
   <!-- Fancybox slider -->
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/jquery.fancybox.css" type="text/css" media="screen" />
   <!-- Theme color -->
