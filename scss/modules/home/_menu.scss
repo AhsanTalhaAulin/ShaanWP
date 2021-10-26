@@ -120,10 +120,15 @@
                 }
                 .media-body{
                     h4{
+                        padding-left: 40px;
                         &:before{
-                            content:'';
-                            background:  url("assets/img/menu/default.png");
-                            
+                            content: "";
+                            background-image: url(assets/img/menu/default.png);
+                            width: 40px;
+                            height: 40px;
+                            position: absolute;
+                            background-size: 100%;
+                            left: 20px;
                             
                         }
                     }
