@@ -109,3 +109,29 @@
         }
     }
 }
+
+@media only screen and (max-width: 767px) {
+
+    .sm-menu-item-nav{
+        li{
+            .media{
+                .media-left{
+                    display: none;
+                }
+                .media-body{
+                    h4{
+                        &:before{
+                            content: url("assets/img/menu/default.png");
+                            
+                            
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+}
