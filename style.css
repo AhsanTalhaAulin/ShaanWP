@@ -837,6 +837,27 @@ img {
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 767px) {
+  #sm-services .sm-menu-item-nav li .media .media-left {
+    display: none;
+  }
+  #sm-services .sm-menu-item-nav li .media .media-body .media-heading {
+    margin-bottom: 25px;
+  }
+  #sm-services .sm-menu-item-nav li .media .media-body h4 {
+    padding-left: 40px;
+  }
+  #sm-services .sm-menu-item-nav li .media .media-body h4:before {
+    content: "";
+    background-image: url(assets/img/menu/default.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-size: 100%;
+    left: 20px;
+  }
+}
+
 /*==================
  MENU ITEM SECTION
 ====================*/
@@ -962,27 +983,6 @@ img {
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-tab-content-area .sm-menu-item-nav li .media .media-body p {
   margin: 0px;
   font-size: 14px;
-}
-
-@media only screen and (max-width: 767px) {
-  #sm-restaurant-menu .sm-menu-item-nav li .media .media-left {
-    display: none;
-  }
-  #sm-restaurant-menu .sm-menu-item-nav li .media .media-body .media-heading {
-    margin-bottom: 25px;
-  }
-  #sm-restaurant-menu .sm-menu-item-nav li .media .media-body h4 {
-    padding-left: 40px;
-  }
-  #sm-restaurant-menu .sm-menu-item-nav li .media .media-body h4:before {
-    content: "";
-    background-image: url(assets/img/menu/default.png);
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    background-size: 100%;
-    left: 20px;
-  }
 }
 
 /*==================
