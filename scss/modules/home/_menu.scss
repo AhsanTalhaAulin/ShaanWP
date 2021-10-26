@@ -119,9 +119,13 @@
                     display: none;
                 }
                 .media-body{
-                    .meadia-heading{
-                        padding-left: 40px;
+                    .media-heading{
                         margin-bottom: 25px;
+                    }
+                    }
+                    h4{
+                        padding-left: 40px;
+                        
                         &:before{
                             content: "";
                             background-image: url(assets/img/menu/default.png);
