@@ -86,7 +86,7 @@ catering service in dhaka
 
 
   <!-- Font awesome -->
-  <!-- <link href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/font-awesome.css" rel="stylesheet"> -->
+  <link href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/font-awesome.css" rel="stylesheet">
   <!-- Bootstrap -->
   <link href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/bootstrap.css" rel="stylesheet">
   <!-- Slick slider -->
