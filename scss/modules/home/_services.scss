@@ -177,6 +177,7 @@
 }
 @media only screen and (max-width: 767px) {
     #sm-services {
+        padding:  0;
         .service-area {
             .content {
                 .sm-tab-content-area {
@@ -187,6 +188,7 @@
                                     display: none;
                                 }
                                 .media-body {
+                                    padding: 20px;
                                     .media-heading {
                                         margin-bottom: 25px;
                                     }
@@ -201,7 +203,7 @@
                                             height: 40px;
                                             position: absolute;
                                             background-size: 100%;
-                                            left: 20px;
+                                            left: 30px;
                                         }
                                     }
                                 }
