@@ -1,7 +1,7 @@
 /* BASE - Base styles, Variables, Mixins, etc. */
 body {
   background-color: #ffffff;
-  font-family: "Dancing Script", cursive;
+  font-family: "Patrick Hand", cursive;
   color: #333;
   font-size: 15px;
   overflow-x: hidden;
@@ -30,7 +30,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
 }
 
 h2 {
@@ -47,7 +47,7 @@ img {
 .sm-readmore-btn {
   background-color: #f37521;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   display: inline-block;
   font-size: 16px;
   padding: 15px 35px;
@@ -226,7 +226,7 @@ img {
 }
 
 .sm-main-navbar .sm-main-nav {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   padding: 25px 0;
 }
 
@@ -280,7 +280,7 @@ img {
   display: none;
   font-size: 17px;
   line-height: 22px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   padding: 5px 0;
   position: fixed;
   right: 20px;
@@ -618,7 +618,7 @@ img {
 }
 
 #sm-counter .sm-counter-overlay .sm-counter-area .sm-counter-nav li .sm-single-counter h3 span {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   font-size: 50px;
   font-weight: bold;
   line-height: 40px;
@@ -860,7 +860,7 @@ img {
 }
 
 #sm-restaurant-menu .sm-restaurant-menu-area .sm-restaurant-menu-content .sm-restaurant-menu li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   font-size: 18px;
   border-radius: 0;
   color: #fff;
@@ -1140,7 +1140,7 @@ img {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   letter-spacing: 1px;
   margin-bottom: 0;
   min-width: 175px;
@@ -1490,7 +1490,7 @@ img {
 #sm-contact .sm-contact-area .sm-contact-content .sm-contact-left {
   display: inline;
   float: left;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   width: 100%;
 }
 
@@ -2225,7 +2225,7 @@ img {
 }
 
 #sm-footer .sm-footer-area .sm-footer-copyright p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
   font-size: 16px;
   letter-spacing: 0.5px;
   color: #fff;
@@ -2382,7 +2382,7 @@ img {
 }
 
 #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-bio p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", cursive;
 }
 
 #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider .slick-dots li {
