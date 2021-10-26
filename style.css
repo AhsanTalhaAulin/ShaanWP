@@ -185,7 +185,7 @@ img {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .sm-faq .modal-content .collapsible:hover {
@@ -215,6 +215,12 @@ img {
   -webkit-transition: max-height 0.2s ease-out;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-faq .modal-content {
+    padding: 10px;
+  }
 }
 
 /*==================
