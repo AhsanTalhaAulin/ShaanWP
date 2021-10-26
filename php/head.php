@@ -146,4 +146,8 @@ catering service in dhaka
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 </style> 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+</style>
 </head>
