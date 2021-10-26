@@ -144,7 +144,6 @@ catering service in dhaka
 <meta property="fb:pages" content="107468647781170" />
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-</style> 
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+</style>
 </head>
