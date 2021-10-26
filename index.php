@@ -11,7 +11,7 @@
 
 
     <!-- Messenger -->
-    <?php include "php/messenger.php" ?>
+    <?php // include "php/messenger.php" ?>
 
 
     <!-- Start header section -->
